@@ -1,3 +1,42 @@
 body {
     background-color: black;
 }
+
+.carouselHeightJ {
+    height: 902px;
+}
+
+.imgCoverJ {
+    object-fit: cover;
+}
+
+.bgWhiteJ {
+    background-color: white;
+}
+
+.infoLogoSizeJ {
+    width: 190px;
+    height: 190px;
+}
+
+.centerJ {
+    display: flex;
+    justify-content: space-around;
+}
+
+.txtCenterJ {
+    text-align: center;
+}
+
+.yellowJ {
+    color: yellow;
+}
+
+.whiteJ {
+    color: white;
+}
+
+.homePageMargin {
+    margin-left: 175px;
+    margin-right: 175px;
+}
