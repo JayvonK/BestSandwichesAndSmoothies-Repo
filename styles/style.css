@@ -21,7 +21,7 @@ body {
 
 .centerJ {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .txtCenterJ {
@@ -39,4 +39,38 @@ body {
 .homePageMargin {
     margin-left: 175px;
     margin-right: 175px;
+}
+
+.reviewImgJ {
+    width: 204px;
+    height: auto;
+}
+
+.starJ {
+    width: 45px;
+    height: auto;
+}
+
+.quotesJ {
+    width: 45px;
+}
+
+.dotsJ {
+    width: 45px;
+}
+
+.reviewPaddingJ {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hrLineJ {
+    height: 3px;
+    background-color: yellow;
+    opacity: 100;
+}
+
+.footerPaddingJ {
+    padding-left: 60px;
+    padding-right: 60px;
 }
