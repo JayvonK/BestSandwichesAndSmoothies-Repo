@@ -1,0 +1,201 @@
+@font-face {
+    font-family: YuGiOh;
+    src: url(/assssssssssssssssssssssssets/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 1.ttf);
+}
+
+
+body {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headBox{
+    background: radial-gradient(circle, rgba(255,214,0,1) 50%, rgba(255,199,0,1) 81%, rgba(255,184,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98px;
+}
+
+.headBox p {
+    font-size: 128px;
+    font-family: YuGiOh;
+}
+
+
+.topFive{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bgWhite {
+    background-color: white;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 1.5px solid #ffcb49;
+    opacity: 100%;
+    width: 500px;
+}
+
+.menuText {
+    font-size: 85px;
+    color: #FFCC49;
+    font-family: YuGiOh;
+}
+
+.line {
+    border: 1.5px solid #FFCC49;
+    width: 590px;
+}
+
+
