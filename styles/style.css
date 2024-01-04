@@ -198,7 +198,25 @@ hr {
     width: 590px;
 }
 
+.foodInfoJ {
+    font-size: 20px;
+    line-height: 40px;
+}
 
+.viewMenuBtnJ {
+    height: 100px;
+    width: 270px;
+    
+}
+.btn-primary{
+    background-color: #FFCC49;
+    border-color: #FFCC49;
+}
+
+.btn-primary:click{
+    background-color: #FFCC49;
+    border-color: #FFCC49;
+}
 .carouselHeightJ {
     height: 902px;
 }
@@ -318,6 +336,13 @@ hr {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
 }
+
+.viewMenuJ {
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+}
+
 
 .sloganJ {
     font-size: 80px;
