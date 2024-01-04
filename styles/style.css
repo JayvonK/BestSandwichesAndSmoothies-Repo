@@ -323,6 +323,14 @@ hr {
     padding: 0;
 }
 
+.card {
+    background: none;
+}
+
+.cuisineJ {
+    font-size: 20px;
+}
+
 .absoluteJ {
     position: absolute;
 }
