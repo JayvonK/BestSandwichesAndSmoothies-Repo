@@ -358,9 +358,18 @@ hr {
 }
 
 .navLinksJ {
-    width: 100px;
+    font-size: 28px;
 }
 
 .logoSizeJ {
     width: 120px;
+}
+
+.titleFontJ {
+    font-size: 64px;
+}
+
+.alignCenterJ {
+    display: flex;
+    align-items: center;
 }
