@@ -307,6 +307,11 @@ hr {
 
 .contactRowPaddingJ {
     padding-left: 75px;
+    padding-top: 7px;
+}
+
+.contactRowPadding2J{
+    padding-top: 7px;
 }
 
 .contactUsPaddingJ {
@@ -328,7 +333,7 @@ hr {
 
 @font-face {
     font-family: Sans Serif Collection;
-    src: url(../assets/SansSerifCollection.ttf);
+    src: url(../assets/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
@@ -393,7 +398,8 @@ hr {
 }
 
 .contactUsBodySizeJ {
-    font-size: 24px
+    font-size: 24px;
+    line-height: 42px;
 }
 
 .redJ {
@@ -406,5 +412,9 @@ hr {
 }
 
 .contactBodyTopPaddingJ {
-    padding-top: 15px;
+    padding-top: 20px;
+}
+
+.banhMiHeadJ {
+    padding-left: 25px;
 }
