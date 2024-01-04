@@ -303,6 +303,14 @@ hr {
     height: auto;
 }
 
+.contactUsPaddingJ {
+    padding-top: 50px;
+}
+
+.contactUsPaddingJ2 {
+    padding-top: 20px;
+}
+
 .evenJ {
     display: flex;
     justify-content: space-evenly;
@@ -372,4 +380,8 @@ hr {
 .alignCenterJ {
     display: flex;
     align-items: center;
+}
+
+.dontBeAfraidBodySizeJ {
+    font-size: 26px;
 }
