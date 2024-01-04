@@ -301,6 +301,12 @@ hr {
 .contactIconsJ {
     width: 122px;
     height: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.contactRowPaddingJ {
+    padding-left: 75px;
 }
 
 .contactUsPaddingJ {
@@ -384,4 +390,21 @@ hr {
 
 .dontBeAfraidBodySizeJ {
     font-size: 26px;
+}
+
+.contactUsBodySizeJ {
+    font-size: 24px
+}
+
+.redJ {
+    color: red;
+}
+
+.blueJ {
+    font-size: 28px;
+    color: #0084E3;
+}
+
+.contactBodyTopPaddingJ {
+    padding-top: 15px;
 }
