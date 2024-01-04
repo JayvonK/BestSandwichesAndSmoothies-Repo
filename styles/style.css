@@ -320,8 +320,7 @@ hr {
 .phoneJ {
     width: 100%;
     height: 373px;
-    padding-right: 0px;
-    
+    padding: 0;
 }
 
 .absoluteJ {
