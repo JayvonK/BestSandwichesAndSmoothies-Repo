@@ -292,5 +292,18 @@ hr {
 }
 
 .contactBgJ {
-    background-image: url();
+    background-image: url(../assets/map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -340px;
+}
+
+.contactIconsJ {
+    width: 122px;
+    height: auto;
+}
+
+.evenJ {
+    display: flex;
+    justify-content: space-evenly;
 }
