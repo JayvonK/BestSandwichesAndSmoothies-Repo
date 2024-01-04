@@ -350,3 +350,17 @@ hr {
 .footerFontSize3 {
     font-size: 48px;
 }
+
+.footerIconsJ {
+    width: 120px;
+    height: 100px;
+    object-fit: fill;
+}
+
+.navLinksJ {
+    width: 100px;
+}
+
+.logoSizeJ {
+    width: 120px;
+}
