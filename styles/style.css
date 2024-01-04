@@ -226,7 +226,7 @@ hr {
 }
 
 .yellowJ {
-    color: yellow;
+    color: #FFCC49;
 }
 
 .whiteJ {
@@ -263,7 +263,7 @@ hr {
 
 .hrLineJ {
     height: 3px;
-    background-color: yellow;
+    background-color: #FFCC49;
     opacity: 100;
     width: 100%;
 }
@@ -306,4 +306,47 @@ hr {
 .evenJ {
     display: flex;
     justify-content: space-evenly;
+}
+
+.cardRadiusJ {
+    border-radius: 45px;
+}
+
+@font-face {
+    font-family: Sans Serif Collection;
+    src: url(../assets/SansSerifCollection.ttf);
+}
+
+@font-face {
+    font-family: Yu gi oh;
+    src: url(../assets/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 1.ttf);
+}
+
+@font-face {
+    font-family: Abril Fatface;
+    src: url(../assets/AbrilFatface-Regular.ttf);
+}
+
+.sansCollectionJ {
+    font-family: Sans Serif Collection;
+}
+
+.yugiJ {
+    font-family: Yu gi oh;
+}
+
+.abrilFatfaceJ {
+    font-family: Abril Fatface;
+}
+
+.footerFontSize {
+    font-size: 20px;
+}
+
+.footerFontSize2 {
+    font-size: 24px;
+}
+
+.footerFontSize3 {
+    font-size: 48px;
 }
