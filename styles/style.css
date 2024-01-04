@@ -238,6 +238,10 @@ hr {
     margin-right: 175px;
 }
 
+.carouselBgJ {
+    background-color: rgba(0, 0, 0, 0.511);
+}
+
 .reviewImgJ {
     width: 204px;
     height: auto;
