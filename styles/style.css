@@ -282,6 +282,11 @@ hr {
 
 .cardRadiusJ {
     border-radius: 45px;
+    width: 545px;
+}
+
+.dontBeAfraidJ {
+    font-size: 48px;
 }
 
 @font-face {
@@ -355,6 +360,11 @@ hr {
     line-height: 42px;
 }
 
+.contactUsBodySizeJ2 {
+    font-size: 24px;
+    line-height: 42px;
+}
+
 .redJ {
     color: red;
 }
@@ -362,6 +372,14 @@ hr {
 .blueJ {
     font-size: 28px;
     color: #0084E3;
+    padding-top: 70px;
+}
+
+.blueJ2 {
+    font-size: 28px;
+    padding-top: 25px;
+    width: 80%;
+    text-decoration: none;
 }
 
 .contactBodyTopPaddingJ {
@@ -410,6 +428,10 @@ hr {
     font-size: 24px;
 }
 
+.orderTextJ {
+    width: 80%;
+}
+
 @media screen and (max-width: 600px){
     .behindTheCounterJ {
         font-size: 0px;
@@ -418,6 +440,10 @@ hr {
     .videoJ {
         width: 0px;
         height: 0px;
+    }
+
+    .orderTextJ {
+        width: 85%;
     }
 
     .aLittleAboutJ {
@@ -441,5 +467,69 @@ hr {
         padding-bottom: 30px;
     }
 
-    
+    .contactRowJ {
+        width: 0px;
+        font-size: 0px;
+        height: 0px;
+    }
+
+    .contactBgJ {
+        background-image: url();
+    }
+
+    .cardRadiusJ {
+        width: 340px;
+        margin-bottom: 40px;
+    }
+
+    .contactRowPaddingJ {
+        padding-left: 0px;
+        padding-top: 2px;
+    }
+
+    .contactRowPadding2J {
+        padding-top: 2px
+    }
+
+    .contactUsBodySizeJ {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: start;
+    }
+
+    .contactUsBodySizeJ2 {
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 80px;
+    }
+
+    .orderTextJ2 {
+        width: 95%;
+    }
+
+    .contactIconsJ {
+        width: 75px;
+    }
+
+    .contactBodyTopPaddingJ {
+        padding-top: 10px;
+    }
+
+    .dontBeAfraidBodySizeJ {
+        font-size: 20px;
+    }
+
+    .blueJ2 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .blueJ {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .desktopFooter {
+        display: none;
+    }
 }
