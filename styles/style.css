@@ -159,8 +159,9 @@ hr {
 }
 
 .starJ {
-    width: 45px;
+    width: 32px;
     height: auto;
+    padding: 0 5px;
 }
 
 .quotesJ {
@@ -383,4 +384,25 @@ hr {
 
 .sandwichTxtJ {
     width: 203px;
+}
+
+.starRowJ {
+    width: 130px;
+    padding-left: 12px;
+}
+
+.star2J {
+    width: 22px;
+    padding: 0 1px;
+}
+
+@media screen and (max-width: 600px){
+    .behindTheCounterJ {
+        font-size: 0px;
+    }
+
+    .videoJ {
+        width: 0px;
+        height: 0px;
+    }
 }
