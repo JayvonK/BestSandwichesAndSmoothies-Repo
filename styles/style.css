@@ -432,6 +432,26 @@ hr {
     width: 80%;
 }
 
+.taroTxtJ {
+    width: 140px;
+}
+
+.greenTeaTxtJ {
+    width: 220px;
+}
+
+.thaiTeaTxtJ {
+    width: 145px;
+}
+
+.avocadoTxtJ {
+    width: 210px;
+}
+
+.honeyDewTxtJ {
+    width: 250px;
+}
+
 @media screen and (max-width: 600px){
     .behindTheCounterJ {
         font-size: 0px;
