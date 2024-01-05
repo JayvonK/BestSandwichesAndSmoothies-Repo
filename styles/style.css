@@ -42,7 +42,7 @@ hr {
 }
 
 .menuText {
-    font-size: 85px;
+    font-size: 70px;
     color: #FFCC49;
     font-family: YuGiOh;
 }
@@ -55,14 +55,14 @@ hr {
 .drinkText {
     color: white;
     font-family: YuGiOh;
-    font-size: 55px;
+    font-size: 40px;
 }
 
 .priceText {
     display: flex;
-    align-items: center;
-    font-size: 60px;
+    font-size: 40px;
     font-family: YuGiOh;
+    padding-top:  26px;
     color: #FFCC49;
 }
 
@@ -74,6 +74,16 @@ hr {
 .foodText div {
     font-size: 45px;
     color: #A19C9C;
+}
+
+.drinkPos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drinkImage {
+    border: 2px solid #FFCC49;
 }
 
 
