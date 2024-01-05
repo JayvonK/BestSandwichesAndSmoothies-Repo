@@ -20,6 +20,7 @@ body {
     align-items: center;
     height: 72px;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .headBox p {
@@ -35,7 +36,6 @@ body {
 
 .bgWhite {
     background-color: white;
-    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -118,6 +118,43 @@ hr {
 .drinkImage {
     border: 2px solid #FFCC49;
 }
+
+@media screen and (max-width: 600px) {
+    .pageMargin {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .headBox {
+        height: 45px;
+    }
+
+
+    .headBox p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 65px;
+        padding-top: 7px;
+    }
+    
+    .line {
+        border: 1.5px solid #FFCC49;
+        width: 250px;
+    }
+
+    .menuText {
+        font-size: 40px;
+        color: #FFCC49;
+        font-family: YuGiOh;
+
+    }
+
+    .toppingText {
+        font-size: 30px;
+        padding-left: 23px;
+    }
+  }
 
 
 
