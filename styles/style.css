@@ -80,7 +80,25 @@ hr {
 
 
 
+.foodInfoJ {
+    font-size: 20px;
+    line-height: 40px;
+}
 
+.viewMenuBtnJ {
+    height: 100px;
+    width: 270px;
+    
+}
+.btn-primary{
+    background-color: #FFCC49;
+    border-color: #FFCC49;
+}
+
+.btn-primary:click{
+    background-color: #FFCC49;
+    border-color: #FFCC49;
+}
 .carouselHeightJ {
     height: 902px;
 }
@@ -95,7 +113,18 @@ hr {
 
 .infoLogoSizeJ {
     width: 190px;
-    height: 190px;
+    height: 170px;
+}
+
+.infoTxtSizeJ {
+    font-size: 32px;
+    line-height: 60px;
+}
+
+.infoLogoSizeJ2 {
+    height: 144px;
+     width: 164px;
+      margin-top: 25px;
 }
 
 .centerJ {
@@ -108,7 +137,7 @@ hr {
 }
 
 .yellowJ {
-    color: yellow;
+    color: #FFCC49;
 }
 
 .whiteJ {
@@ -118,6 +147,10 @@ hr {
 .homePageMargin {
     margin-left: 175px;
     margin-right: 175px;
+}
+
+.carouselBgJ {
+    background-color: rgba(0, 0, 0, 0.511);
 }
 
 .reviewImgJ {
@@ -145,7 +178,7 @@ hr {
 
 .hrLineJ {
     height: 3px;
-    background-color: yellow;
+    background-color: #FFCC49;
     opacity: 100;
     width: 100%;
 }
@@ -164,4 +197,176 @@ hr {
 .banhMiPaddingJ {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.phoneJ {
+    width: 100%;
+    height: 373px;
+    padding: 0;
+}
+
+.cardJ {
+    background: none;
+}
+
+.cuisineJ {
+    font-size: 20px;
+}
+
+.absoluteJ {
+    position: absolute;
+}
+
+.behindTheCounterJ {
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 96px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.viewMenuJ {
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+}
+
+
+.sloganJ {
+    font-size: 80px;
+    left: 50%;
+    top: 45%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.contactBgJ {
+    background-image: url(../assets/map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -340px;
+}
+
+.contactIconsJ {
+    width: 122px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.contactRowPaddingJ {
+    padding-left: 75px;
+    padding-top: 7px;
+}
+
+.contactRowPadding2J{
+    padding-top: 7px;
+}
+
+.contactUsPaddingJ {
+    padding-top: 50px;
+}
+
+.contactUsPaddingJ2 {
+    padding-top: 20px;
+}
+
+.evenJ {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardRadiusJ {
+    border-radius: 45px;
+}
+
+@font-face {
+    font-family: Sans Serif Collection;
+    src: url(../assets/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Yu gi oh;
+    src: url(../assets/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 1.ttf);
+}
+
+@font-face {
+    font-family: Abril Fatface;
+    src: url(../assets/AbrilFatface-Regular.ttf);
+}
+
+.sansCollectionJ {
+    font-family: Sans Serif Collection;
+}
+
+.yugiJ {
+    font-family: Yu gi oh;
+}
+
+.abrilFatfaceJ {
+    font-family: Abril Fatface;
+}
+
+.footerFontSize {
+    font-size: 20px;
+}
+
+.footerFontSize2 {
+    font-size: 24px;
+}
+
+.footerFontSize3 {
+    font-size: 48px;
+}
+
+.footerIconsJ {
+    width: 120px;
+    height: 100px;
+    object-fit: fill;
+}
+
+.navLinksJ {
+    font-size: 28px;
+}
+
+.logoSizeJ {
+    width: 120px;
+}
+
+.titleFontJ {
+    font-size: 64px;
+}
+
+.alignCenterJ {
+    display: flex;
+    align-items: center;
+}
+
+.dontBeAfraidBodySizeJ {
+    font-size: 26px;
+}
+
+.contactUsBodySizeJ {
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.redJ {
+    color: red;
+}
+
+.blueJ {
+    font-size: 28px;
+    color: #0084E3;
+}
+
+.contactBodyTopPaddingJ {
+    padding-top: 20px;
+}
+
+.banhMiHeadJ {
+    padding-left: 25px;
 }
