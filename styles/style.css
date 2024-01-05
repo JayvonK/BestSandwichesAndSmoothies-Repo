@@ -418,6 +418,10 @@ hr {
     padding-top: 70px;
 }
 
+.abUsMargin {
+    margin-top: -5px;
+}
+
 .blueJ2 {
     font-size: 28px;
     padding-top: 25px;
@@ -558,6 +562,10 @@ hr {
         font-size: 0px;
     }
 
+    .abUsMargin {
+        margin-top: 0px;
+    }
+
     .footerFontSize {
         font-size: 11px;
     }
@@ -587,7 +595,7 @@ hr {
     }
 
     .hrMargin{
-        margin-top: 0px;
+        margin-top: 5px;
     }
 
     .chefJ {
