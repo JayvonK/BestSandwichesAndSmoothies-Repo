@@ -9,8 +9,8 @@ body {
 }
 
 
-.headBox{
-    background: radial-gradient(circle, rgba(255,214,0,1) 50%, rgba(255,199,0,1) 81%, rgba(255,184,0,1) 100%);
+.headBox {
+    background: radial-gradient(circle, rgba(255, 214, 0, 1) 50%, rgba(255, 199, 0, 1) 81%, rgba(255, 184, 0, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
 }
 
 
-.topFive{
+.topFive {
     display: flex;
     justify-content: space-evenly;
 }
@@ -71,6 +71,7 @@ hr {
     font-family: YuGiOh;
     font-size: 55px;
 }
+
 .foodText div {
     font-size: 45px;
     color: #A19C9C;
@@ -88,17 +89,19 @@ hr {
 .viewMenuBtnJ {
     height: 100px;
     width: 270px;
-    
+
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FFCC49;
     border-color: #FFCC49;
 }
 
-.btn-primary:click{
+.btn-primary:click {
     background-color: #FFCC49;
     border-color: #FFCC49;
 }
+
 .carouselHeightJ {
     height: 902px;
 }
@@ -123,8 +126,8 @@ hr {
 
 .infoLogoSizeJ2 {
     height: 144px;
-     width: 164px;
-      margin-top: 25px;
+    width: 164px;
+    margin-top: 25px;
 }
 
 .centerJ {
@@ -263,7 +266,7 @@ hr {
     padding-top: 7px;
 }
 
-.contactRowPadding2J{
+.contactRowPadding2J {
     padding-top: 7px;
 }
 
@@ -386,6 +389,8 @@ hr {
     padding-top: 20px;
 }
 
+
+
 .banhMiHeadJ {
     padding-left: 25px;
 }
@@ -428,6 +433,11 @@ hr {
     font-size: 24px;
 }
 
+.contactPaddingJ {
+    padding-top: 40px;
+    padding-bottom: 45px
+}
+
 .orderTextJ {
     width: 80%;
 }
@@ -452,9 +462,32 @@ hr {
     width: 290px;
 }
 
-@media screen and (max-width: 600px){
+.appearJ {
+    display: none;
+}
+
+.footerIconsMobileJ{
+    padding-right: 5px;
+    padding-left: 0px;
+    width: 36px;
+}
+
+.rightJ {
+    display: flex;
+    justify-content: end;
+}
+
+.bSMobileFooterJ {
+    font-size: 11px
+}
+
+@media screen and (max-width: 600px) {
     .behindTheCounterJ {
         font-size: 0px;
+    }
+
+    .footerFontSize {
+        font-size: 11px;
     }
 
     .videoJ {
@@ -487,6 +520,13 @@ hr {
         padding-bottom: 30px;
     }
 
+    .phoneImageJ {
+        width: 13px;
+        height: auto;
+    }
+
+    
+
     .contactRowJ {
         width: 0px;
         font-size: 0px;
@@ -509,6 +549,10 @@ hr {
 
     .contactRowPadding2J {
         padding-top: 2px
+    }
+
+    .contactPaddingJ {
+        padding-bottom: 10px;
     }
 
     .contactUsBodySizeJ {
@@ -551,5 +595,9 @@ hr {
 
     .disappearJ {
         display: none;
+    }
+
+    .appearJ {
+        display: block;
     }
 }
