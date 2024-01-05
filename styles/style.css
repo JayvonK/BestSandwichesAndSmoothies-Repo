@@ -396,6 +396,20 @@ hr {
     padding: 0 1px;
 }
 
+.aLittleAboutJ {
+    font-size: 48px;
+}
+
+.chefJ {
+    width: 55%;
+}
+
+.aLittleAboutJ2 {
+    padding-top: 40px;
+    line-height: 40px;
+    font-size: 24px;
+}
+
 @media screen and (max-width: 600px){
     .behindTheCounterJ {
         font-size: 0px;
@@ -405,4 +419,27 @@ hr {
         width: 0px;
         height: 0px;
     }
+
+    .aLittleAboutJ {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .aLittleAboutJ2 {
+        font-size: 19px;
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 30px;
+    }
+
+    .chefJ {
+        width: 80%;
+    }
+
+    .banhMiPaddingJ {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+
+    
 }
