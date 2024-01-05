@@ -93,8 +93,8 @@ hr {
 }
 
 .btn-primary {
-    background: rgb(255,214,0);
-    background: radial-gradient(circle, rgba(255,214,0,1) 45%, rgba(255,199,0,1) 85%, rgba(255,184,0,1) 100%);
+    background: rgb(255, 214, 0);
+    background: radial-gradient(circle, rgba(255, 214, 0, 1) 45%, rgba(255, 199, 0, 1) 85%, rgba(255, 184, 0, 1) 100%);
     border-color: #FFCC49;
     color: black;
 }
@@ -199,6 +199,22 @@ hr {
     width: 100%;
 }
 
+.menuNavJ {
+    width: 100px;
+}
+
+.contactUsNavJ {
+    width: 150px;
+}
+
+.aboutNavJ {
+    width: 125px;
+}
+
+.banhMiNavJ {
+    width: 120px;
+}
+
 .footerPaddingJ {
     padding-left: 60px;
     padding-right: 60px;
@@ -300,6 +316,12 @@ hr {
     width: 545px;
 }
 
+.pad0 {
+    background-color: rgba(255, 255, 255, 0);
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
 .dontBeAfraidJ {
     font-size: 48px;
 }
@@ -356,6 +378,11 @@ hr {
 
 .logoSizeJ {
     width: 120px;
+}
+
+.mobileBSLogo {
+    width: 70px;
+    margin-left: 25px;
 }
 
 .titleFontJ {
@@ -503,6 +530,20 @@ hr {
     z-index: 1;
 }
 
+.hrMargin{
+    margin-top: 35px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 214, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+
+.navRowJ {
+    width: 700px;
+    padding-top: 40px;
+}
+
 .blackBg {
     background-color: black;
 }
@@ -537,9 +578,15 @@ hr {
 
     .aLittleAboutJ2 {
         font-size: 19px;
-        padding-left: 15px;
-        padding-right: 15px;
         line-height: 30px;
+    }
+
+    .aLittleAboutJ2Div {
+        width: 95vw;
+    }
+
+    .hrMargin{
+        margin-top: 0px;
     }
 
     .chefJ {
@@ -556,7 +603,40 @@ hr {
         height: auto;
     }
 
+    .menuNavJ {
+        width: 100vw;
+        padding-left: 45px;
+    }
 
+    .contactUsNavJ {
+        width: 100vw;
+        padding-left: 45px;
+        padding-top: 15px;
+    }
+
+    .navRowJ {
+        width: 100vw;
+    }
+
+    .pad0 {
+        padding-bottom: 0px;
+    }
+
+    .pB0 {
+        margin-bottom: 0px;
+    }
+
+    .aboutNavJ {
+        width: 100vw;
+        padding-left: 45px;
+        padding-top: 15px;
+    }
+
+    .banhMiNavJ {
+        width: 100vw;
+        padding-left: 45px;
+        padding-top: 15px;
+    }
 
     .contactRowJ {
         width: 0px;
@@ -630,5 +710,9 @@ hr {
 
     .appearJ {
         display: block;
+    }
+
+    a.txtCenterJ {
+        text-align: start;
     }
 }
