@@ -8,17 +8,22 @@ body {
     background-color: black;
 }
 
+.pageMargin {
+    padding-right: 70px;
+    padding-left: 70px;
+}
 
 .headBox{
     background: radial-gradient(circle, rgba(255,214,0,1) 50%, rgba(255,199,0,1) 81%, rgba(255,184,0,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 98px;
+    height: 72px;
+    margin-top: 10px;
 }
 
 .headBox p {
-    font-size: 128px;
+    font-size: 100px;
     font-family: YuGiOh;
 }
 
@@ -30,8 +35,7 @@ body {
 
 .bgWhite {
     background-color: white;
-    padding-top: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -45,6 +49,7 @@ hr {
     font-size: 70px;
     color: #FFCC49;
     font-family: YuGiOh;
+    padding-left: 35px;
 }
 
 .line {
@@ -56,14 +61,42 @@ hr {
     color: white;
     font-family: YuGiOh;
     font-size: 40px;
+    padding-left: 55px;
 }
 
-.priceText {
-    display: flex;
+.toppingText {
     font-size: 40px;
     font-family: YuGiOh;
-    padding-top:  26px;
     color: #FFCC49;
+    padding-left: 417px;
+}
+
+.pearlText {
+    font-size: 40px;
+    font-family: YuGiOh;
+    color: #FFCC49;
+    padding-left: 226px;
+}
+
+.specialText {
+    font-size: 40px;
+    font-family: YuGiOh;
+    color: #FFCC49;
+    padding-left: 250px;
+}
+
+.smoothieText {
+    font-size: 40px;
+    font-family: YuGiOh;
+    color: #FFCC49;
+    padding-left: 390px;
+}
+
+.slushText {
+    font-size: 40px;
+    font-family: YuGiOh;
+    color: #FFCC49;
+    padding-left: 347px;
 }
 
 .foodText {
@@ -78,7 +111,7 @@ hr {
 
 .drinkPos {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 }
 
