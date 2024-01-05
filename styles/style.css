@@ -9,152 +9,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .headBox{
     background: radial-gradient(circle, rgba(255,214,0,1) 50%, rgba(255,199,0,1) 81%, rgba(255,184,0,1) 100%);
     display: flex;
@@ -197,6 +51,34 @@ hr {
     border: 1.5px solid #FFCC49;
     width: 590px;
 }
+
+.drinkText {
+    color: white;
+    font-family: YuGiOh;
+    font-size: 55px;
+}
+
+.priceText {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-family: YuGiOh;
+    color: #FFCC49;
+}
+
+.foodText {
+    color: white;
+    font-family: YuGiOh;
+    font-size: 55px;
+}
+.foodText div {
+    font-size: 45px;
+    color: #A19C9C;
+}
+
+
+
+
 
 
 .carouselHeightJ {
