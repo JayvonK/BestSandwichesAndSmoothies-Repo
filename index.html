@@ -28,9 +28,30 @@
 
                                 <div class="col centerJ">
                                     <div class="row evenJ" style="width: 700px; padding-top: 40px;">
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 75px;"
-                                            href="./pages/Menu.html">Menu</a>
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 140px;"
+                                        <div class="accordion accordion-flush" id="accordionFlushExample"
+                                            style="width: 100px;">
+                                            <div class="accordion-item"
+                                                style="width: 100px; background-color: rgba(255, 255, 255, 0); outline: none;">
+                                                <h2 class="accordion-header">
+                                                    <button class="btn navLinksJ nav-link" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne"
+                                                        style="background-color: rgba(255, 255, 255, 0); padding-bottom: 20px; padding-top: 0px;">
+                                                        <p class="yellowJ" style="font-weight: 400;">Menu</p>
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body blackBg"><a
+                                                            class="nav-link navLinksJ yellowJ"
+                                                            href="./pages/Menu.html">Food</a></div>
+                                                    <div class="accordion-body blackBg"><a
+                                                            class="nav-link navLinksJ yellowJ"
+                                                            href="./pages/Drinks.html">Drinks</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 150px;"
                                             href="./pages/ContactUs.html">Contact Us</a>
                                         <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 125px;"
                                             aria-current="page" href="./pages/AboutUs.html">About
@@ -78,8 +99,7 @@
     <h1 class="absoluteJ whiteJ sloganJ sansCollectionJ" style="width: 1040px;">"A banh mi a day keeps the hunger away"
     </h1>
 
-    <a class="absoluteJ viewMenuJ" href="#menu"><button class="btn btn-primary viewMenuBtnJ sansCollectionJ">View
-            Menu</button></a>
+    <a class="absoluteJ viewMenuJ" href="#menu"><button class="btn btn-primary viewMenuBtnJ sansCollectionJ">View Menu</button></a>
 
     <div class="container-fluid bgWhiteJ" style="padding-top: 50px; padding-bottom: 100px;">
         <div class="row">
@@ -110,8 +130,9 @@
                 </div>
 
                 <div class="row" style="padding-top: 75px;">
-                    <a class="centerJ" href="./pages/ContactUs.html"><button class="btn btn-primary"
-                            style="width: 270px; height: 100px;">Learn More</button></a>
+                    <a class="centerJ" style="text-decoration: none;" href="./pages/ContactUs.html">
+                        <button class="btn btn-primary sansCollectionJ" style="width: 270px; height: 100px">Learn More</button>
+                    </a>
                 </div>
 
 
@@ -131,7 +152,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid menuPaddingJ">
         <div class="row homePageMargin">
             <div class="col">
                 <h2 class="whiteJ abrilFatfaceJ cuisineJ">Vietnamese Cuisine</h2>

@@ -93,13 +93,25 @@ hr {
 }
 
 .btn-primary {
-    background-color: #FFCC49;
+    background: rgb(255,214,0);
+    background: radial-gradient(circle, rgba(255,214,0,1) 45%, rgba(255,199,0,1) 85%, rgba(255,184,0,1) 100%);
     border-color: #FFCC49;
+    color: black;
 }
 
 .btn-primary:click {
     background-color: #FFCC49;
     border-color: #FFCC49;
+}
+
+.btn-primary:hover {
+    background: #FFCC49;
+    border-color: #FFCC49;
+    color: black;
+}
+
+.menuPaddingJ {
+    padding-top: 50px;
 }
 
 .carouselHeightJ {
@@ -339,6 +351,7 @@ hr {
 
 .navLinksJ {
     font-size: 28px;
+    font-family: Sans Serif Collection;
 }
 
 .logoSizeJ {
@@ -466,7 +479,7 @@ hr {
     display: none;
 }
 
-.footerIconsMobileJ{
+.footerIconsMobileJ {
     padding-right: 5px;
     padding-left: 0px;
     width: 36px;
@@ -479,6 +492,24 @@ hr {
 
 .bSMobileFooterJ {
     font-size: 11px
+}
+
+.content {
+    position: relative;
+}
+
+#flush-collapseOne {
+    position: absolute;
+    z-index: 1;
+}
+
+.blackBg {
+    background-color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #FFCC49;
 }
 
 @media screen and (max-width: 600px) {
@@ -525,7 +556,7 @@ hr {
         height: auto;
     }
 
-    
+
 
     .contactRowJ {
         width: 0px;
