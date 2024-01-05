@@ -13,8 +13,8 @@ body {
     padding-left: 70px;
 }
 
-.headBox{
-    background: radial-gradient(circle, rgba(255,214,0,1) 50%, rgba(255,199,0,1) 81%, rgba(255,184,0,1) 100%);
+.headBox {
+    background: radial-gradient(circle, rgba(255, 214, 0, 1) 50%, rgba(255, 199, 0, 1) 81%, rgba(255, 184, 0, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 }
 
 
-.topFive{
+.topFive {
     display: flex;
     justify-content: space-evenly;
 }
@@ -104,6 +104,7 @@ hr {
     font-family: YuGiOh;
     font-size: 55px;
 }
+
 .foodText div {
     font-size: 45px;
     color: #A19C9C;
@@ -170,17 +171,31 @@ hr {
 .viewMenuBtnJ {
     height: 100px;
     width: 270px;
-    
+
 }
-.btn-primary{
+
+.btn-primary {
+    background: rgb(255, 214, 0);
+    background: radial-gradient(circle, rgba(255, 214, 0, 1) 45%, rgba(255, 199, 0, 1) 85%, rgba(255, 184, 0, 1) 100%);
+    border-color: #FFCC49;
+    color: black;
+}
+
+.btn-primary:click {
     background-color: #FFCC49;
     border-color: #FFCC49;
 }
 
-.btn-primary:click{
-    background-color: #FFCC49;
+.btn-primary:hover {
+    background: #FFCC49;
     border-color: #FFCC49;
+    color: black;
 }
+
+.menuPaddingJ {
+    padding-top: 50px;
+}
+
 .carouselHeightJ {
     height: 902px;
 }
@@ -205,8 +220,8 @@ hr {
 
 .infoLogoSizeJ2 {
     height: 144px;
-     width: 164px;
-      margin-top: 25px;
+    width: 164px;
+    margin-top: 25px;
 }
 
 .centerJ {
@@ -241,8 +256,9 @@ hr {
 }
 
 .starJ {
-    width: 45px;
+    width: 32px;
     height: auto;
+    padding: 0 5px;
 }
 
 .quotesJ {
@@ -263,6 +279,22 @@ hr {
     background-color: #FFCC49;
     opacity: 100;
     width: 100%;
+}
+
+.menuNavJ {
+    width: 100px;
+}
+
+.contactUsNavJ {
+    width: 150px;
+}
+
+.aboutNavJ {
+    width: 125px;
+}
+
+.banhMiNavJ {
+    width: 120px;
 }
 
 .footerPaddingJ {
@@ -344,7 +376,7 @@ hr {
     padding-top: 7px;
 }
 
-.contactRowPadding2J{
+.contactRowPadding2J {
     padding-top: 7px;
 }
 
@@ -363,6 +395,17 @@ hr {
 
 .cardRadiusJ {
     border-radius: 45px;
+    width: 545px;
+}
+
+.pad0 {
+    background-color: rgba(255, 255, 255, 0);
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+.dontBeAfraidJ {
+    font-size: 48px;
 }
 
 @font-face {
@@ -412,10 +455,16 @@ hr {
 
 .navLinksJ {
     font-size: 28px;
+    font-family: Sans Serif Collection;
 }
 
 .logoSizeJ {
     width: 120px;
+}
+
+.mobileBSLogo {
+    width: 70px;
+    margin-left: 25px;
 }
 
 .titleFontJ {
@@ -436,6 +485,11 @@ hr {
     line-height: 42px;
 }
 
+.contactUsBodySizeJ2 {
+    font-size: 24px;
+    line-height: 42px;
+}
+
 .redJ {
     color: red;
 }
@@ -443,12 +497,313 @@ hr {
 .blueJ {
     font-size: 28px;
     color: #0084E3;
+    padding-top: 70px;
+}
+
+.abUsMargin {
+    margin-top: -5px;
+}
+
+.blueJ2 {
+    font-size: 28px;
+    padding-top: 25px;
+    width: 80%;
+    text-decoration: none;
 }
 
 .contactBodyTopPaddingJ {
     padding-top: 20px;
 }
 
+
+
 .banhMiHeadJ {
     padding-left: 25px;
+}
+
+.sandwichJ {
+    font-size: 36px;
+    color: white;
+}
+
+.sandwichJ2 {
+    font-size: 24px;
+    color: #a7a7a7;
+}
+
+.sandwichTxtJ {
+    width: 203px;
+}
+
+.starRowJ {
+    width: 130px;
+    padding-left: 12px;
+}
+
+.star2J {
+    width: 22px;
+    padding: 0 1px;
+}
+
+.aLittleAboutJ {
+    font-size: 48px;
+}
+
+.chefJ {
+    width: 55%;
+}
+
+.aLittleAboutJ2 {
+    padding-top: 40px;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.contactPaddingJ {
+    padding-top: 40px;
+    padding-bottom: 45px
+}
+
+.orderTextJ {
+    width: 80%;
+}
+
+.taroTxtJ {
+    width: 140px;
+}
+
+.greenTeaTxtJ {
+    width: 220px;
+}
+
+.thaiTeaTxtJ {
+    width: 145px;
+}
+
+.avocadoTxtJ {
+    width: 210px;
+}
+
+.honeyDewTxtJ {
+    width: 290px;
+}
+
+.appearJ {
+    display: none;
+}
+
+.footerIconsMobileJ {
+    padding-right: 5px;
+    padding-left: 0px;
+    width: 36px;
+}
+
+.rightJ {
+    display: flex;
+    justify-content: end;
+}
+
+.bSMobileFooterJ {
+    font-size: 11px
+}
+
+.content {
+    position: relative;
+}
+
+#flush-collapseOne {
+    position: absolute;
+    z-index: 1;
+}
+
+.hrMargin{
+    margin-top: 35px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 214, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+
+.navRowJ {
+    width: 700px;
+    padding-top: 40px;
+}
+
+.blackBg {
+    background-color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #FFCC49;
+}
+
+@media screen and (max-width: 600px) {
+    .behindTheCounterJ {
+        font-size: 0px;
+    }
+
+    .abUsMargin {
+        margin-top: 0px;
+    }
+
+    .footerFontSize {
+        font-size: 11px;
+    }
+
+    .videoJ {
+        width: 0px;
+        height: 0px;
+    }
+
+    .orderTextJ {
+        width: 85%;
+    }
+
+    .aLittleAboutJ {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .aLittleAboutJ2 {
+        font-size: 19px;
+        line-height: 30px;
+        width: 310px;
+    }
+
+    .aLittleAboutJ2Div {
+        width: 95vw;
+    }
+
+    .hrMargin{
+        margin-top: 5px;
+    }
+
+    .chefJ {
+        width: 80%;
+    }
+
+    .banhMiPaddingJ {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+
+    .phoneImageJ {
+        width: 13px;
+        height: auto;
+    }
+
+    .menuNavJ {
+        width: 100vw;
+        padding-left: 45px;
+    }
+
+    .contactUsNavJ {
+        width: 100vw;
+        padding-left: 45px;
+        padding-top: 15px;
+    }
+
+    .navRowJ {
+        width: 100vw;
+    }
+
+    .pad0 {
+        padding-bottom: 0px;
+    }
+
+    .pB0 {
+        margin-bottom: 0px;
+    }
+
+    .aboutNavJ {
+        width: 100vw;
+        padding-left: 45px;
+        padding-top: 15px;
+    }
+
+    .banhMiNavJ {
+        width: 100vw;
+        padding-left: 45px;
+        padding-top: 15px;
+    }
+
+    .contactRowJ {
+        width: 0px;
+        font-size: 0px;
+        height: 0px;
+    }
+
+    .contactBgJ {
+        background-image: url();
+    }
+
+    .cardRadiusJ {
+        width: 340px;
+        margin-bottom: 40px;
+    }
+
+    .contactRowPaddingJ {
+        padding-left: 0px;
+        padding-top: 2px;
+    }
+
+    .contactRowPadding2J {
+        padding-top: 2px
+    }
+
+    .contactPaddingJ {
+        padding-bottom: 10px;
+    }
+
+    .contactUsBodySizeJ {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: start;
+    }
+
+    .contactUsBodySizeJ2 {
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 80px;
+    }
+
+    .orderTextJ2 {
+        width: 95%;
+    }
+
+    .contactIconsJ {
+        width: 75px;
+    }
+
+    .contactBodyTopPaddingJ {
+        padding-top: 10px;
+    }
+
+    .dontBeAfraidBodySizeJ {
+        font-size: 20px;
+    }
+
+    .blueJ2 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .blueJ {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .disappearJ {
+        display: none;
+    }
+
+    .appearJ {
+        display: block;
+    }
+
+    a.txtCenterJ {
+        text-align: start;
+    }
 }

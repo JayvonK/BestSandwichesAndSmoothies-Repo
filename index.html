@@ -16,41 +16,56 @@
         <div class="row">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand yellowJ" href="#"></a>
+                    <a class="navbar-brand yellowJ" href="./index.html"> <img class="mobileBSLogo appearJ" src="../assets/bestSandwich logo.png" alt="Picture of Logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon" style="width: 45px;"></span>
                     </button>
                     <div class="collapse navbar-collapse centerJ" id="navbarNavAltMarkup">
                         <div class="" style="width: 100%;">
                             <div class="row">
-
                                 <div class="col centerJ">
-                                    <div class="row evenJ" style="width: 700px; padding-top: 40px;">
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 75px;"
-                                            href="./pages/Menu.html">Menu</a>
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 140px;"
+                                    <div class="row evenJ navRowJ">
+                                        <div class="accordion accordion-flush menuNavJ" id="accordionFlushExample">
+                                            <div class="accordion-item"
+                                                style=" background-color: rgba(255, 255, 255, 0); outline: none;">
+                                                
+                                                    <button class="btn navLinksJ nav-link" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        <p class="yellowJ pB0" style="font-weight: 400;">Menu</p>
+                                                    </button>
+                                                
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body blackBg"><a
+                                                            class="nav-link navLinksJ yellowJ"
+                                                            href="./pages/Menu.html">Food</a></div>
+                                                    <div class="accordion-body blackBg"><a
+                                                            class="nav-link navLinksJ yellowJ"
+                                                            href="./pages/Drinks.html">Drinks</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="nav-link yellowJ navLinksJ txtCenterJ contactUsNavJ"
                                             href="./pages/ContactUs.html">Contact Us</a>
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 125px;"
-                                            aria-current="page" href="./pages/AboutUs.html">About
-                                            Us</a>
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 120px;"
+                                        <a class="nav-link yellowJ navLinksJ txtCenterJ aboutNavJ" aria-current="page"
+                                            href="./pages/AboutUs.html">About Us</a>
+                                        <a class="nav-link yellowJ navLinksJ txtCenterJ banhMiNavJ"
                                             href="./pages/BanhMi.html">Banh Mi?</a>
                                     </div>
                                 </div>
 
-                                <div class="col-1 centerJ">
+                                <div class="col-1 centerJ disappearJ">
                                     <a href="./index.html"><img class="logoSizeJ" src="../assets/bestSandwich logo.png"
-                                            alt=""></a>
+                                            alt="Picture of Logo"></a>
                                 </div>
-                                <div class="col yugiJ alignCenterJ">
+                                <div class="col yugiJ alignCenterJ disappearJ">
                                     <h1 style="width: 100%" class="txtCenterJ titleFontJ yellowJ">Best Sandwiches &
                                         Smothies</h1>
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -75,16 +90,16 @@
         </div>
     </div>
 
-    <h1 class="absoluteJ whiteJ sloganJ sansCollectionJ" style="width: 1040px;">"A banh mi a day keeps the hunger away"
+    <h1 class="absoluteJ whiteJ sloganJ sansCollectionJ disappearJ" style="width: 1040px;">"A banh mi a day keeps the hunger away"
     </h1>
 
     <a class="absoluteJ viewMenuJ" href="#menu"><button class="btn btn-primary viewMenuBtnJ sansCollectionJ">View Menu</button></a>
 
     <div class="container-fluid bgWhiteJ" style="padding-top: 50px; padding-bottom: 100px;">
-        <div class="row">
+        <div class="row disappearJ">
             <div class="col-4 ">
                 <div class="row centerJ">
-                    <img class="infoLogoSizeJ" src="./assets/open-sign.png" alt="">
+                    <img class="infoLogoSizeJ" src="./assets/open-sign.png" alt="Picture of an open sign">
                 </div>
                 <div class="row txtCenterJ abrilFatfaceJ" style="padding-top: 30px">
                     <h3 class="infoTxtSizeJ">OPEN HOURS</h3>
@@ -98,7 +113,7 @@
 
             </div>
             <div class="col-4">
-                <div class="row centerJ"><img class="infoLogoSizeJ2" src="./assets/location.png" alt="">
+                <div class="row centerJ"><img class="infoLogoSizeJ2" src="./assets/location.png" alt="Picture of location pin">
                 </div>
                 <div class="row txtCenterJ abrilFatfaceJ" style="padding-top: 30px">
                     <h3 class="infoTxtSizeJ">LOCATION</h3>
@@ -109,14 +124,16 @@
                 </div>
 
                 <div class="row" style="padding-top: 75px;">
-                    <a class="centerJ" href="./pages/ContactUs.html"><button class="btn btn-primary" style="width: 270px; height: 100px;">Learn More</button></a>
+                    <a class="centerJ" style="text-decoration: none;" href="./pages/ContactUs.html">
+                        <button class="btn btn-primary sansCollectionJ" style="width: 270px; height: 100px">Learn More</button>
+                    </a>
                 </div>
 
 
             </div>
             <div class="col-4">
                 <div class="row centerJ">
-                    <img class="infoLogoSizeJ imgCoverJ" src="./assets/contact-mail.png" alt="">
+                    <img class="infoLogoSizeJ imgCoverJ" src="./assets/contact-mail.png" alt="Picture of mail icon">
                 </div>
                 <div class="row txtCenterJ abrilFatfaceJ" style="padding-top: 30px">
                     <h3 class="infoTxtSizeJ">CONTACT</h3>
@@ -129,69 +146,105 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid menuPaddingJ">
         <div class="row homePageMargin">
             <div class="col">
-                <h2 class="whiteJ abrilFatfaceJ cuisineJ">Vietnamese Cuisine</h2>
+                <h2 class="whiteJ abrilFatfaceJ cuisineJ disappearJ">Vietnamese Cuisine</h2>
             </div>
         </div>
         <div class="row homePageMargin">
             <div class="col-4">
-                <div class="row">
-                    <h1 class="whiteJ abrilFatfaceJ" style="width: 300px;">Popular Sandwiches</h1>
+                <div class="row" style="margin-top: 5px">
+                    <h1 class="whiteJ abrilFatfaceJ disappearJ" style="width: 300px; line-height: 57px;">Popular Sandwiches</h1>
                 </div>
-                
+
 
             </div>
-            <div class="col-8">
-                <p id="menu" class="whiteJ foodInfoJ sansCollectionJ">At best sandwiches we offer the many sandwiches that are apart of the Vietnamese
+            <div class="col-8 disappearJ">
+                <p id="menu" class="whiteJ foodInfoJ sansCollectionJ">At best sandwiches we offer the many sandwiches
+                    that are apart of the Vietnamese
                     cuisine. Don’t be afraid to order yourself a sandwich and give it a try, because I guarantee that
                     you won’t regret it!. Down below are our top 5 popular sandwiches.</p>
             </div>
         </div>
-        <div class="row evenJ homePageMargin">
+        <div class="row evenJ homePageMargin disappearJ">
             <div class="col">
                 <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/banhMiCard1.png" class="card-img-top" alt="...">
+                    <img src="./assets/banhMiCard1.png" class="card-img-top" alt="Picture of Grilled PorkBanh Mi">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Favorite <span
+                                class="sandwichJ">Grilled Pork</span> $5.79</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/banhMiCard2.png" class="card-img-top" alt="...">
+                    <img src="./assets/banhMiCard2.png" class="card-img-top" alt="Picture of Vegetarian Banh Mi">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Diet Friendly <span
+                                class="sandwichJ">Vegetarian</span> $5.79</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/BanhMiCard3.png" class="card-img-top" alt="...">
+                    <img src="./assets/BanhMiCard3.png" class="card-img-top" alt="Picture of BBQ Pork Banh Mi">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">Top Seller <span
+                                class="sandwichJ">BBQ Pork</span> $5.79</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/banhMiCard4.png" class="card-img-top" alt="...">
+                    <img src="./assets/banhMiCard4.png" class="card-img-top" alt="Picture of Ham and Cheese Croissant">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Croissant <span
+                                class="sandwichJ">H & C Croissant</span> $6.49</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/banhMiCard5.png" class="card-img-top" alt="...">
+                    <img src="./assets/banhMiCard5.png" class="card-img-top" alt="Picture of Ham and Cheese Baguette">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Baguette <span
+                                class="sandwichJ">H & C Baguette</span> $6.19</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                            <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -199,32 +252,40 @@
         <div class="row centerJ my-4">
             <button class="btn btn-primary" style="width: 250px;">View Sandwiches</button>
         </div>
-        <div class="row homePageMargin">
+        <div class="row homePageMargin disappearJ">
             <div class="col">
                 <h2 class="whiteJ abrilFatfaceJ cuisineJ">Asian Cuisine</h2>
             </div>
         </div>
-        <div class="row homePageMargin">
+        <div class="row homePageMargin disappearJ">
             <div class="col-4">
-                <div class="row">
-                    <h1 class="whiteJ abrilFatfaceJ" style="width: 300px;">Popular Drinks</h1>
+                <div class="row" style="margin-top: 5px">
+                    <h1 class="whiteJ abrilFatfaceJ" style="width: 300px; line-height: 57px;">Popular Drinks</h1>
                 </div>
 
             </div>
             <div class="col-8">
-                <p class="whiteJ foodInfoJ sansCollectionJ">We don’t just offer sandwiches, we also offer tasty drinks! We have a wide variety of
+                <p class="whiteJ foodInfoJ sansCollectionJ">We don’t just offer sandwiches, we also offer tasty drinks!
+                    We have a wide variety of
                     drinks and just like the sandwiches you won’t regret ordering yourself a drink. I personally
                     recommend any of the 5 drinks below, because I don’t think you can go wrong with any of those
                     options.</p>
             </div>
         </div>
-        <div class="row evenJ homePageMargin">
+        <div class="row evenJ homePageMargin disappearJ">
             <div class="col">
                 <div class="card cardJ" style="width: 280px;">
                     <img src="./assets/drinkCard1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 taroTxtJ">#1 Favorite <span
+                                class="sandwichJ">Tangy Taro</span> $5.89</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -232,8 +293,15 @@
                 <div class="card cardJ" style="width: 280px;">
                     <img src="./assets/drinkCard2.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 greenTeaTxtJ">"The Go To Drink" <span
+                                class="sandwichJ">Green Tea Gangbusters</span> $5.89</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -241,8 +309,15 @@
                 <div class="card cardJ" style="width: 280px;">
                     <img src="./assets/drinkCard3.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 thaiTeaTxtJ">Top Seller <span
+                                class="sandwichJ">Iced Thai Tea</span> $5.69</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -250,8 +325,15 @@
                 <div class="card cardJ" style="width: 280px;">
                     <img src="./assets/drinkCard4.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 avocadoTxtJ">#1 Recommended <span
+                                class="sandwichJ">Appealing Avocado</span> $5.89</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -259,16 +341,23 @@
                 <div class="card cardJ" style="width: 280px;">
                     <img src="./assets/drinkCard5.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 greenTeaTxtJ">#2 Recommended <span
+                                class="sandwichJ"> HoneyDew Milk Tea</span> $5.69</p>
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row centerJ my-4">
-            <button class="btn btn-primary" style="width: 250px;">View Sandwiches</button>
+            <button class="btn btn-primary" style="width: 250px;">View Drinks</button>
         </div>
-        <div class="container-fluid reviewPaddingJ">
+        <div class="container-fluid reviewPaddingJ disappearJ">
             <div id="carouselExample" class="carousel slide bgWhiteJ">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -395,57 +484,95 @@
                 </button>
             </div>
         </div>
-        <hr class="yellowJ hrLineJ mt-4">
 
-        <div class="container-fluid footerPaddingJ">
-            <div class="row" style="padding-top: 45px; padding-bottom: 20px;">
-                <div class="col-4" style="padding-left: 3%;">
-                    <div class="row yellowJ abrilFatfaceJ">
-                        <h2 class="footerFontSize3">Best Sandwiches</h2>
-                    </div>
-                    <div class="row yellowJ abrilFatfaceJ">
-                        <h2 class="footerFontSize3">& Smoothies</h2>
-                    </div>
+            <hr class="yellowJ hrLineJ hrMargin">
+
+    <div class="container-fluid footerPaddingJ disappearJ">
+        <div class="row" style="padding-top: 45px; padding-bottom: 20px;">
+            <div class="col-4" style="padding-left: 3%;">
+                <div class="row yellowJ abrilFatfaceJ">
+                    <h2 class="footerFontSize3">Best Sandwiches</h2>
                 </div>
-                <div class="col" style="padding-left: 2%;">
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <p class="yellowJ abrilFatfaceJ footerFontSize2">HOURS</p>
-                                <p class="yellowJ footerFontSize ">Mon & Tue : 9 am - 5 pm</p>
-                                <p class="yellowJ footerFontSize">CLOSED WEDNESDAY</p>
-                                <p class="yellowJ footerFontSize">Thu - Sun : 9 am - 5pm</p>
-                            </div>
+                <div class="row yellowJ abrilFatfaceJ">
+                    <h2 class="footerFontSize3">& Smoothies</h2>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 2%;">
+                <div class="row">
+                    <div class="col">
+                        <div class="row sansCollectionJ">
+                            <p class="yellowJ abrilFatfaceJ footerFontSize2">HOURS</p>
+                            <p class="yellowJ footerFontSize">Mon & Tue : 9 am - 5 pm</p>
+                            <p class="yellowJ footerFontSize">CLOSED WEDNESDAY</p>
+                            <p class="yellowJ footerFontSize">Thu - Sun : 9 am - 5pm</p>
                         </div>
+                    </div>
 
-                        <div class="col">
-                            <div class="row">
-                                <p class="yellowJ abrilFatfaceJ footerFontSize2">CONTACT US</p>
-                                <p class="yellowJ footerFontSize">Mon & Tue : 9 am - 5 pm</p>
-                                <p class="yellowJ footerFontSize">CLOSED WEDNESDAY</p>
-                                <p class="yellowJ footerFontSize">Thu - Sun : 9 am - 5pm</p>
-                            </div>
+                    <div class="col">
+                        <div class="row sansCollectionJ">
+                            <p class="yellowJ abrilFatfaceJ footerFontSize2">CONTACT US</p>
+                            <p class="yellowJ footerFontSize">
+                                <img src="../assets/phone symbol.png" alt="">
+                                <a class="yellowJ" href="" style="padding-left: 15px;">(209) 475-0652</a>
+                            </p>
+                            <p class="yellowJ footerFontSize">3330 E Hammer Ln Ste</p>
+                            <p class="yellowJ footerFontSize">C Stockton, CA 95212</p>
                         </div>
+                    </div>
 
-                        <div class="col">
-                            <div class="row">
-                                <p class="yellowJ abrilFatfaceJ footerFontSize2">LINKS</p>
-                            </div>
-                            <div class="row">
-                                <a class="footerIconsJ"
-                                    href="https://m.facebook.com/profile.php?id=111693338885516"><img class="img-fluid"
-                                        src="../assets/FACEBOOK.png" alt=""></a>
-                                <a class="footerIconsJ"
-                                    href="https://m.facebook.com/profile.php?id=111693338885516"><img class="img-fluid"
-                                        src="../assets/icons8-yelp-100.png" alt=""></a>
-                                <a class="footerIconsJ"><img class="img-fluid" src="../assets/bestSandwich logo.png"
-                                        alt=""></a>
-                            </div>
+                    <div class="col">
+                        <div class="row">
+                            <p class="yellowJ abrilFatfaceJ footerFontSize2">LINKS</p>
+                        </div>
+                        <div class="row">
+                            <a class="footerIconsJ" href="https://m.facebook.com/profile.php?id=111693338885516">
+                                <img class="img-fluid" src="../assets/FACEBOOK.png" alt="">
+                            </a>
+                            <a class="footerIconsJ"
+                                href="https://www.yelp.com/biz/best-sandwiches-and-smoothies-stockton">
+                                <img class="img-fluid" src="../assets/icons8-yelp-100.png" alt="">
+                            </a>
+                            <a class="footerIconsJ" href="../index.html">
+                                <img class="img-fluid" src="../assets/bestSandwich logo.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid appearJ" style="padding-left: 20px; padding-right: 20px;">
+        <div class="row">
+            <div class="col">
+                <p class="yellowJ footerFontSize" style="margin-bottom: 5px;">
+                    <img class="phoneImageJ" src="../assets/phone symbol.png" alt="">
+                    <a class="yellowJ" href="" style="padding-left: 15px">(209) 475-0652</a>
+                </p>
+                <p class="yellowJ footerFontSize" style="width: 115px;">
+                    3330 E Hammer Ln Ste C Stockton, CA 95212
+                </p>
+            </div>
+            <div class="col">
+                <div class="row rightJ">
+                    <a class="footerIconsMobileJ" href="https://m.facebook.com/profile.php?id=111693338885516">
+                        <img class="img-fluid" src="../assets/FACEBOOK.png" alt="">
+                    </a>
+                    <a class="footerIconsMobileJ"
+                        href="https://www.yelp.com/biz/best-sandwiches-and-smoothies-stockton">
+                        <img class="img-fluid" src="../assets/icons8-yelp-100.png" alt="">
+                    </a>
+                    <a class="footerIconsMobileJ" href="../index.html">
+                        <img class="img-fluid" src="../assets/bestSandwich logo.png" alt="">
+                    </a>
+                </div>
+                <div class="row">
+                    <p class="bSMobileFooterJ yellowJ" style="padding-top: 8px; text-align: end;">Best Sandwiches &
+                        Smoothies</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
