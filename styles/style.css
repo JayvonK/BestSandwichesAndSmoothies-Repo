@@ -505,6 +505,15 @@ hr {
     background: none;
 }
 
+.hover2 {
+    width: 100%;
+}
+
+.hover2:hover {
+    width: 100%;
+    height: 100%
+}
+
 .lineHeight30 {
     line-height: 30px;
 }
@@ -774,9 +783,7 @@ button.carousel-control-next {
     width: 55%;
 }
 
-.carouselHeightJ {
-    height: 400px;
-}
+
 
 .aLittleAboutJ2 {
     padding-top: 40px;
@@ -910,6 +917,10 @@ button.carousel-control-next {
         line-height: 30px;
         width: 310px;
     }
+    
+    .carouselHeightJ {
+    height: 400px;
+}
 
     .aLittleAboutJ2Div {
         width: 95vw;
