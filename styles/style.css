@@ -321,6 +321,7 @@ hr {
 
 .cardJ {
     background: none;
+    width: 14.5vw;
 }
 
 .cuisineJ {
@@ -448,8 +449,8 @@ hr {
 }
 
 .footerIconsJ {
-    width: 120px;
-    height: 100px;
+    width: 6vw;
+    height: auto;
     object-fit: fill;
 }
 
@@ -659,6 +660,11 @@ hr {
 
     .orderTextJ {
         width: 85%;
+    }
+
+    .mobileNavCoverJ {
+        width: 100vw;
+        height: 70px;
     }
 
     .aLittleAboutJ {
