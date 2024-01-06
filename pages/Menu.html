@@ -11,113 +11,165 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+
 
     <!-- NavBar -->
 
+    <div class="container-fluid">
         <div class="row">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand yellowJ" href="#"></a>
+                    <a class="navbar-brand yellowJ" href="../index.html"> <img class="mobileBSLogo appearJ"
+                            src="../assets/bestSandwich logo.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon" style="width: 45px;"></span>
                     </button>
                     <div class="collapse navbar-collapse centerJ" id="navbarNavAltMarkup">
                         <div class="" style="width: 100%;">
                             <div class="row">
-
                                 <div class="col centerJ">
-                                    <div class="row evenJ" style="width: 700px; padding-top: 40px;">
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 75px;"
-                                            href="./pages/Menu.html">Menu</a>
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 140px;"
-                                            href="./pages/ContactUs.html">Contact Us</a>
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 125px;"
-                                            aria-current="page" href="./pages/AboutUs.html">About
-                                            Us</a>
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ" style="width: 120px;"
-                                            href="./pages/BanhMi.html">Banh Mi?</a>
+                                    <div class="row evenJ navRowJ">
+                                        <div class="accordion accordion-flush menuNavJ" id="accordionFlushExample">
+                                            <div class="accordion-item"
+                                                style=" background-color: rgba(255, 255, 255, 0); outline: none;">
+
+                                                <button class="btn navLinksJ nav-link" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    <p class="yellowJ pB0" style="font-weight: 400;">Menu</p>
+                                                </button>
+
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body blackBg"><a
+                                                            class="nav-link navLinksJ yellowJ"
+                                                            href="./Menu.html">Food</a></div>
+                                                    <div class="accordion-body blackBg"><a
+                                                            class="nav-link navLinksJ yellowJ"
+                                                            href="./Drinks.html">Drinks</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="nav-link yellowJ navLinksJ txtCenterJ contactUsNavJ"
+                                            href="./ContactUs.html">Contact Us</a>
+                                        <a class="nav-link yellowJ navLinksJ txtCenterJ aboutNavJ" aria-current="page"
+                                            href="./AboutUs.html">About Us</a>
+                                        <a class="nav-link yellowJ navLinksJ txtCenterJ banhMiNavJ"
+                                            href="./BanhMi.html">Banh Mi?</a>
                                     </div>
                                 </div>
 
-                                <div class="col-1 centerJ">
-                                    <a href="./index.html"><img class="logoSizeJ" src="../assets/bestSandwich logo.png"
+                                <div class="col-1 centerJ disappearJ">
+                                    <a href="../index.html"><img class="logoSizeJ" src="../assets/bestSandwich logo.png"
                                             alt=""></a>
                                 </div>
-                                <div class="col yugiJ alignCenterJ">
+                                <div class="col yugiJ alignCenterJ disappearJ">
                                     <h1 style="width: 100%" class="txtCenterJ titleFontJ yellowJ">Best Sandwiches &
                                         Smothies</h1>
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
-
+    </div>
+    <div class="container-fluid pageMargin">
         <div class="row">
             <div class="headBox">
                 <p>Top Sellers</p>
             </div>
         </div>
 
-<!-- Top Five Food -->
+        <!-- Top Five Food -->
 
-        <div class="row bgWhite">
-            <div class="col topFive">
-                <div class="card " style="width: 12rem; border: 0px;">
-                    <img src="../assssssssssssssssssssssssets/Taro.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+        <div class="d-none d-lg-block">
+            <div class="row disappearJ bgWhite">
+                <div class="col topFive">
+                    <div class="card cardJ" style="width: 280px; border: 0;">
+                        <img src="../assets/banhMiCard1.png" class="card-img-top" alt="Picture of Grilled PorkBanh Mi">
+                        <div class="card-body">
+                            <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Favorite
+                            <div class="sandwichJ">Grilled Pork</div> $5.79</p>
+                            <div class="row starRowJ">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col topFive">
+                    <div class="card cardJ" style="width: 280px; border: 0;">
+                        <img src="../assets/banhMiCard2.png" class="card-img-top" alt="Picture of Vegetarian Banh Mi">
+                        <div class="card-body">
+                            <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Diet Friendly
+                            <div class="sandwichJ">Vegetarian</div> $5.79</p>
+                            <div class="row starRowJ">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col topFive">
+                    <div class="card cardJ" style="width: 280px; border: 0;">
+                        <img src="../assets/BanhMiCard3.png" class="card-img-top" alt="Picture of BBQ Pork Banh Mi">
+                        <div class="card-body">
+                            <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">Top Seller
+                            <div class="sandwichJ">BBQ Pork</div> $5.79</p>
+                            <div class="row starRowJ">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col topFive">
+                    <div class="card cardJ" style="width: 280px; border: 0;">
+                        <img src="../assets/banhMiCard4.png" class="card-img-top"
+                            alt="Picture of Ham and Cheese Croissant">
+                        <div class="card-body">
+                            <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Croissant
+                            <div class="sandwichJ">H & C Croissant</div> $6.49</p>
+                            <div class="row starRowJ">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col topFive">
+                    <div class="card cardJ" style="width: 280px; border: 0;">
+                        <img src="../assets/banhMiCard5.png" class="card-img-top"
+                            alt="Picture of Ham and Cheese Baguette">
+                        <div class="card-body">
+                            <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Baguette
+                            <div class="sandwichJ">H & C Baguette</div> $6.19</p>
+                            <div class="row starRowJ">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                                <img class="star2J" src="../assets/Star.png" alt="Picture of star">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col topFive">
-                <div class="card" style="width: 12rem; border: 0px;">
-                    <img src="../assssssssssssssssssssssssets/GreenTea.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col topFive">
-                <div class="card" style="width: 12rem; border: 0px;">
-                    <img src="../assssssssssssssssssssssssets/ThaiTea.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col topFive">
-                <div class="card" style="width: 12rem; border: 0px;">
-                    <img src="../assssssssssssssssssssssssets/Avocado.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col topFive">
-                <div class="card" style="width: 12rem; border: 0px;">
-                    <img src="../assssssssssssssssssssssssets/HoneyDew.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
 
         <div class="row">
@@ -126,87 +178,87 @@
             </div>
         </div>
 
-<!-- Sandwich Menu -->
+        <!-- Sandwich Menu -->
 
-        <br>
-        <br>
         <div class="row">
-            <div class="col-4">
-            <div class="line"></div>
-            <div class="menuText">Sandwiches</div>
-            <div class="line"></div>
-        </div>
-
-            <div class="foodText">
-                <div class="col">
-                    <img src="" alt="">
+            <div class="col">
+                <img class="menuImage" src="../assssssssssssssssssssssssets/sandwich1.png"
+                    style="width: 870px; height: 797px;" alt="">
+            </div>
+            <div class="col">
+                <div class="line"></div>
+                <div class="menuText">Sandwiches</div>
+                <div class="line"></div>
+                <div class="foodText">
+                    <span>#1 Special Combination</span>
+                    <div>Steamed Pork Roll, Salted Ham</div>
+                    <span>#2 Pork Combination</span>
+                    <div>Salted Ham, Headcheese, Butter</div>
+                    <span>#3 Grilled Pork</span>
+                    <div>Garlic Grilled Pork, Butter Pate</div>
+                    <span>#4 B.B.Q Pork</span>
+                    <div>B.B.Q Pork, Pate, Butter</div>
+                    <span>#5 Grilled Chicken</span>
+                    <div>Garlic Grilled Chicken & Butter</div>
+                    <span>#6 Pork Roll</span>
+                    <div>Steamed Pork Patty, Butter, Pate</div>
                 </div>
-                <p>#1 Special Combination</p>
-                <div>Steamed Pork Roll, Salted Ham</div>
-                <p>#2 Pork Combination</p>
-                <div>Salted Ham, Headcheese, Butter</div>
-                <p>#3 Grilled Pork</p>
-                <div>Garlic Grilled Pork, Butter Pate</div>
-                <p>#4 B.B.Q Pork</p>
-                <div>B.B.Q Pork, Pate, Butter</div>
-                <p>#5 Grilled Chicken</p>
-                <div>Garlic Grilled Chicken & Butter</div>
-                <p>#6 Pork Roll</p>
-                <div>Steamed Pork Patty, Butter, Pate</div>
+            </div>
+        </div>
+        <div class="row topMargin">
+            <div class="col">
+                <div class="line"></div>
+                <div class="menuText">Baguettes</div>
+                <div class="line"></div>
+                <div class="foodText">
+                    <span>#7 Vegetarian</span>
+                    <div>Tofu Skin, Yam, Noodles</div>
+                    <span>#8 Roast Beef & Cheese Baguette</span>
+                    <div>Roast Beef </div>
+                    <span>#9 Turkey, Ham, & Cheese Baguette</span>
+                    <div>Sliced Turkey, Sliced Ham, American Cheese</div>
+                    <span>#10 Ham Cheese Baguette</span>
+                    <div>Sliced Ham & American Cheese</div>
+                    <span>#11 Turkey & Ham Baguette</span>
+                    <div>Sliced Turkey, Sliced Ham, American Cheese</div>
+                    <span>#12 Salami & Cheese Baguette</span>
+                    <div>Sliced Salami & American Cheese</div>
+                </div>
+            </div>
+            <div class="col">
+                <img class="menuImage" src="../assssssssssssssssssssssssets/Sandwich2.png"
+                    style="width: 870px; height: 797px;" alt="">
+            </div>
+
+        </div>
+        <div class="row topMargin">
+            <div class="col">
+                <img class="menuImage" src="../assssssssssssssssssssssssets/Sandwich3.png"
+                    style="width: 870px; height: 797px;" alt="">
+            </div>
+
+            <div class="col">
+                <div class="line"></div>
+                <div class="menuText">Croissants</div>
+                <div class="line"></div>
+                <div class="foodText">
+                    <span>#13 Turkey, Ham & Cheese Croissant</span>
+                    <div>Sliced Turkey, Sliced Ham & American Cheese</div>
+                    <span>#14 Ham & Cheese Croissant</span>
+                    <div>Sliced Ham & American Cheese</div>
+                    <span>#15 Turkey & Cheese Croissant</span>
+                    <div>Sliced Turkey & American Cheese</div>
+                    <span>#16 Salami & Cheese Croissant</span>
+                    <div>Sliced Salami & American Cheese</div>
+                    <span>#17 Roast Beef & Cheese Croissant</span>
+                    <div>Sliced Roast Beef & American Cheese</div>
+                    <span>#18 Salami, Ham & Cheese Croissant</span>
+                    <div>Sliced Salami, Sliced Ham & American Cheese</div>
+                </div>
             </div>
         </div>
 
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-4">
-            <div class="line"></div>
-            <div class="menuText">Baguettes</div>
-            <div class="line"></div>
-        </div>
-
-            <div class="foodText">
-                <p>#7 Vegetarian</p>
-                <div>Tofu Skin, Yam, Noodles</div>
-                <p>#8 Roast Beef & Cheese Baguette</p>
-                <div>Roast Beef </div>
-                <p>#9 Turkey, Ham, & Cheese Baguette</p>
-                <div>Sliced Turkey, Sliced Ham, American Cheese</div>
-                <p>#10 Ham Cheese Baguette</p>
-                <div>Sliced Ham & American Cheese</caption>
-                <p>#11 Turkey & Ham Baguette</p>
-                <div>Sliced Turkey, Sliced Ham, American Cheese</div>
-                <p>#12</p>
-                <div>Sliced Salami & American Cheese</div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-4">
-            <div class="line"></div>
-            <div class="menuText">Croissants</div>
-            <div class="line"></div>
-        </div>
-            <div class="foodText">
-                <p>#13 Turkey, Ham & Cheese Croissant</p>
-                <div>Sliced Turkey, Sliced Ham & American Cheese</div>
-                <p>#14 Ham & Cheese Croissant</p>
-                <div>Sliced Ham & American Cheese</div>
-                <p>#15 Turkey & Cheese Croissant</p>
-                <div>Sliced Turkey & American Cheese</div>
-                <p>#16 Salami & Cheese Croissant</p>
-                <div>Sliced Salami & American Cheese</div>
-                <p>#17 Roast Beef & Cheese Croissant</p>
-                <div>Sliced Roast Beef & American Cheese</div>
-                <p>#18 Salami, Ham & Cheese Croissant</p>
-                <div>Sliced Salami, Sliced Ham & American Cheese</div>
-            </div>
-        </div>
-        <br>
-        <br>
-
-<!-- Yelp Review -->
+        <!-- Yelp Review -->
 
         <div id="carouselExample" class="carousel slide bgWhiteJ">
             <div class="carousel-inner">
@@ -223,7 +275,8 @@
                     </div>
                     <div class="row">
                         <p class="txtCenterJ">
-                            Perfect Vietnamese sandwich, super affordable and really tasty. meat is always tasty and soft and the baguette is nice and fresh. worth checking out.
+                            Perfect Vietnamese sandwich, super affordable and really tasty. meat is always tasty and
+                            soft and the baguette is nice and fresh. worth checking out.
                         </p>
                     </div>
                     <div class="row centerJ">
@@ -254,7 +307,12 @@
                     </div>
                     <div class="row">
                         <p class="txtCenterJ">
-                            Their sandwiches are literally the BEST in Stockton! I live in San Jose and it beats san Jose banh mi too. Their bread is toasted warm when you order so make sure you enjoy it as soon as possible. My favorite is the banh mi this nuong and add a slice of cha. The bbq pork is also really delicious! My drink of choice is the strawberry mango smoothie! This taste super refreshing and healthy. Their service is okay, the owners are never friendly but the food is what keeps me coming back.
+                            Their sandwiches are literally the BEST in Stockton! I live in San Jose and it beats san
+                            Jose banh mi too. Their bread is toasted warm when you order so make sure you enjoy it
+                            as soon as possible. My favorite is the banh mi this nuong and add a slice of cha. The
+                            bbq pork is also really delicious! My drink of choice is the strawberry mango smoothie!
+                            This taste super refreshing and healthy. Their service is okay, the owners are never
+                            friendly but the food is what keeps me coming back.
                         </p>
                     </div>
                     <div class="row centerJ">
@@ -285,7 +343,9 @@
                     </div>
                     <div class="row">
                         <p class="txtCenterJ">
-                            I loved this place. I had the #1 Combo and the #4. They were both very tasty.You can taste the freshness of the ingredients. The meat was tender and flavorful.The veggies were cool and crisp! Absolutely loved it here!.
+                            I loved this place. I had the #1 Combo and the #4. They were both very tasty.You can
+                            taste the freshness of the ingredients. The meat was tender and flavorful.The veggies
+                            were cool and crisp! Absolutely loved it here!.
                         </p>
                     </div>
                     <div class="row centerJ">
@@ -313,60 +373,59 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    </div>
 
-<!-- Footer -->
+    <!-- Footer -->
 
-        <hr class="yellowJ hrLineJ mt-4">
+    <hr class="yellowJ hrLineJ mt-4">
 
-        <div class="container-fluid footerPaddingJ">
-            <div class="row" style="padding-top: 45px; padding-bottom: 20px;">
-                <div class="col-4" style="padding-left: 3%;">
-                    <div class="row yellowJ abrilFatfaceJ">
-                        <h2 class="footerFontSize3">Best Sandwiches</h2>
-                    </div>
-                    <div class="row yellowJ abrilFatfaceJ">
-                        <h2 class="footerFontSize3">& Smoothies</h2>
-                    </div>
+    <div class="container-fluid footerPaddingJ">
+        <div class="row" style="padding-top: 45px; padding-bottom: 20px;">
+            <div class="col-4" style="padding-left: 3%;">
+                <div class="row yellowJ abrilFatfaceJ">
+                    <h2 class="footerFontSize3">Best Sandwiches</h2>
                 </div>
-                <div class="col" style="padding-left: 2%;">
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <p class="yellowJ abrilFatfaceJ footerFontSize2">HOURS</p>
-                                <p class="yellowJ footerFontSize ">Mon & Tue : 9 am - 5 pm</p>
-                                <p class="yellowJ footerFontSize">CLOSED WEDNESDAY</p>
-                                <p class="yellowJ footerFontSize">Thu - Sun : 9 am - 5pm</p>
-                            </div>
+                <div class="row yellowJ abrilFatfaceJ">
+                    <h2 class="footerFontSize3">& Smoothies</h2>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 2%;">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <p class="yellowJ abrilFatfaceJ footerFontSize2">HOURS</p>
+                            <p class="yellowJ footerFontSize ">Mon & Tue : 9 am - 5 pm</p>
+                            <p class="yellowJ footerFontSize">CLOSED WEDNESDAY</p>
+                            <p class="yellowJ footerFontSize">Thu - Sun : 9 am - 5pm</p>
                         </div>
+                    </div>
 
-                        <div class="col">
-                            <div class="row">
-                                <p class="yellowJ abrilFatfaceJ footerFontSize2">CONTACT US</p>
-                                <p class="yellowJ footerFontSize">Mon & Tue : 9 am - 5 pm</p>
-                                <p class="yellowJ footerFontSize">CLOSED WEDNESDAY</p>
-                                <p class="yellowJ footerFontSize">Thu - Sun : 9 am - 5pm</p>
-                            </div>
+                    <div class="col">
+                        <div class="row">
+                            <p class="yellowJ abrilFatfaceJ footerFontSize2">CONTACT US</p>
+                            <p class="yellowJ footerFontSize">Mon & Tue : 9 am - 5 pm</p>
+                            <p class="yellowJ footerFontSize">CLOSED WEDNESDAY</p>
+                            <p class="yellowJ footerFontSize">Thu - Sun : 9 am - 5pm</p>
                         </div>
+                    </div>
 
-                        <div class="col">
-                            <div class="row">
-                                <p class="yellowJ abrilFatfaceJ footerFontSize2">LINKS</p>
-                            </div>
-                            <div class="row">
-                                <a class="footerIconsJ"
-                                    href="https://m.facebook.com/profile.php?id=111693338885516"><img class="img-fluid"
-                                        src="../assets/FACEBOOK.png" alt=""></a>
-                                <a class="footerIconsJ"
-                                    href="https://m.facebook.com/profile.php?id=111693338885516"><img class="img-fluid"
-                                        src="../assets/icons8-yelp-100.png" alt=""></a>
-                                <a class="footerIconsJ"><img class="img-fluid" src="../assets/bestSandwich logo.png"
-                                        alt=""></a>
-                            </div>
+                    <div class="col">
+                        <div class="row">
+                            <p class="yellowJ abrilFatfaceJ footerFontSize2">LINKS</p>
+                        </div>
+                        <div class="row">
+                            <a class="footerIconsJ" href="https://m.facebook.com/profile.php?id=111693338885516"><img
+                                    class="img-fluid" src="../assets/FACEBOOK.png" alt=""></a>
+                            <a class="footerIconsJ" href="https://m.facebook.com/profile.php?id=111693338885516"><img
+                                    class="img-fluid" src="../assets/icons8-yelp-100.png" alt=""></a>
+                            <a class="footerIconsJ"><img class="img-fluid" src="../assets/bestSandwich logo.png"
+                                    alt=""></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
 
