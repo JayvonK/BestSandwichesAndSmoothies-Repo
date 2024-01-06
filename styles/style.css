@@ -32,12 +32,21 @@ body {
 .topFive {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 30px;
+    padding-left: 30px;
 
+}
+
+.topFives {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 75px;
 }
 
 .bgWhite {
     background-color: white;
     margin-bottom: 20px;
+    height: 500px;
 }
 
 hr {
@@ -260,6 +269,29 @@ hr {
     font-family: YuGiOh;
     padding-left: 356px;
 }
+
+.reviewText {
+    font-size: 16px;
+    margin-top: 30px;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+}
+
+.reviewImgT {
+    margin-top: 30px;
+    width: 204px;
+    height: auto;
+}
+
+.starImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 2.5%;
+    height: 2.5%;
+}
+
 
 
 
