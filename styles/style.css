@@ -53,6 +53,19 @@ hr {
     padding-left: 35px;
 }
 
+.sandwichT {
+    font-size: 24px;
+    color: #a7a7a7;
+}
+
+.sandwichTxtT {
+    width: 350px;
+}
+
+.sandwichTxtT2 {
+    width: 150px;
+}
+
 .line {
     border: 1.5px solid #FFCC49;
     width: 590px;
@@ -113,6 +126,7 @@ hr {
     padding-left: 32px;
 }
 
+
 .drinkPos {
     display: flex;
     justify-content: end;
@@ -123,15 +137,11 @@ hr {
     border: 2px solid #FFCC49;
 }
 
-.topFivetxt {
+.topFiveTxt {
     font-size: 36px;
     color: black;
 }
 
-.topFivetxt2 {
-    font-size: 36px;
-    color: black;
-}
 
 .topMargin {
     margin-top: 30px;
@@ -142,92 +152,109 @@ hr {
     font-family: YuGiOh;
     padding-left: 533px;
 }
+
 .numberTwo {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 559px;
-    
+
 }
+
 .numberThree {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 624px;
 }
+
 .numberFour {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 651px;
-    
+
 }
+
 .numberFive {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 589px;
-    
+
 }
+
 .numberSix {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 662px;
-    
+
 }
+
 .numberSeven {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 627px;
-    
+
 }
+
 .numberEight {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 394px;
-    
+
 }
+
 .numberNine {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 365px;
 }
+
 .numberTen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 484px;
 }
+
 .numberEleven {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 455px;
 }
+
 .numberTwelve {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 432px;
 }
+
 .numberThirteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 351px;
 }
+
 .numberFourteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 455px;
 }
+
 .numberFifteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 420px;
 }
+
 .numberSixteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 425px;
 }
+
 .numberSeventeen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 372px;
 }
+
 .numberEighteen {
     font-size: 40px;
     font-family: YuGiOh;
@@ -247,14 +274,14 @@ hr {
     }
 
 
-    .headBox p{
+    .headBox p {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 65px;
         padding-top: 7px;
     }
-    
+
     .line {
         border: 1.5px solid #FFCC49;
         width: 300px;
@@ -293,12 +320,126 @@ hr {
         font-size: 30px;
         padding-left: 197px;
     }
-    
+
     .slushText {
         font-size: 30px;
         padding-left: 172px;
     }
-  }
+
+    .numberOne {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 533px;
+    }
+
+    .numberTwo {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 559px;
+
+    }
+
+    .numberThree {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 624px;
+    }
+
+    .numberFour {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 651px;
+
+    }
+
+    .numberFive {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 589px;
+
+    }
+
+    .numberSix {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 662px;
+
+    }
+
+    .numberSeven {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 627px;
+
+    }
+
+    .numberEight {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 394px;
+
+    }
+
+    .numberNine {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 365px;
+    }
+
+    .numberTen {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 484px;
+    }
+
+    .numberEleven {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 455px;
+    }
+
+    .numberTwelve {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 432px;
+    }
+
+    .numberThirteen {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 351px;
+    }
+
+    .numberFourteen {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 455px;
+    }
+
+    .numberFifteen {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 420px;
+    }
+
+    .numberSixteen {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 425px;
+    }
+
+    .numberSeventeen {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 372px;
+    }
+
+    .numberEighteen {
+        font-size: 30px;
+        font-family: YuGiOh;
+        padding-left: 356px;
+    }
+}
 
 
 
@@ -759,13 +900,13 @@ hr {
     z-index: 1;
 }
 
-.hrMargin{
+.hrMargin {
     margin-top: 35px;
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 214, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+}
 
 
 .navRowJ {
@@ -819,7 +960,7 @@ hr {
         width: 95vw;
     }
 
-    .hrMargin{
+    .hrMargin {
         margin-top: 5px;
     }
 
