@@ -142,92 +142,109 @@ hr {
     font-family: YuGiOh;
     padding-left: 533px;
 }
+
 .numberTwo {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 559px;
-    
+
 }
+
 .numberThree {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 624px;
 }
+
 .numberFour {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 651px;
-    
+
 }
+
 .numberFive {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 589px;
-    
+
 }
+
 .numberSix {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 662px;
-    
+
 }
+
 .numberSeven {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 627px;
-    
+
 }
+
 .numberEight {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 394px;
-    
+
 }
+
 .numberNine {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 365px;
 }
+
 .numberTen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 484px;
 }
+
 .numberEleven {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 455px;
 }
+
 .numberTwelve {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 432px;
 }
+
 .numberThirteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 351px;
 }
+
 .numberFourteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 455px;
 }
+
 .numberFifteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 420px;
 }
+
 .numberSixteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 425px;
 }
+
 .numberSeventeen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 372px;
 }
+
 .numberEighteen {
     font-size: 40px;
     font-family: YuGiOh;
@@ -247,14 +264,14 @@ hr {
     }
 
 
-    .headBox p{
+    .headBox p {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 65px;
         padding-top: 7px;
     }
-    
+
     .line {
         border: 1.5px solid #FFCC49;
         width: 300px;
@@ -293,12 +310,12 @@ hr {
         font-size: 30px;
         padding-left: 197px;
     }
-    
+
     .slushText {
         font-size: 30px;
         padding-left: 172px;
     }
-  }
+}
 
 
 
@@ -314,7 +331,13 @@ hr {
 .viewMenuBtnJ {
     height: 100px;
     width: 270px;
+    font-size: 32px;
+    font-weight: 600;
+}
 
+.viewSandwichesBtn {
+    font-weight: 600;
+    width: 250px;
 }
 
 .btn-primary {
@@ -322,6 +345,22 @@ hr {
     background: radial-gradient(circle, rgba(255, 214, 0, 1) 45%, rgba(255, 199, 0, 1) 85%, rgba(255, 184, 0, 1) 100%);
     border-color: #FFCC49;
     color: black;
+}
+
+.imgHeightJ {
+    height: 200px;
+}
+
+.bbqTxtJ {
+    width: 170px;
+}
+
+.croissantTxtJ {
+    width: 270px;
+}
+
+.croissantMarginJ {
+    margin-bottom: 0px;
 }
 
 .btn-primary:click {
@@ -464,8 +503,41 @@ hr {
 
 .cardJ {
     background: none;
-    width: 14.5vw;
+    max-width: 300px;
 }
+
+.lineHeight30 {
+    line-height: 30px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../assets/caret-left.svg") !important;
+
+    width: 120px;
+    height: 120px;
+
+    margin-top: 40%;
+}
+
+button.carousel-control-prev {
+    opacity: 100%;
+    margin-left: 120px;
+}
+
+button.carousel-control-next {
+    opacity: 100%;
+    margin-right: 120px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../assets/caret-right.svg") !important;
+
+    width: 120px;
+    height: 120px;
+    margin-top: 40%;
+}
+
+
 
 .cuisineJ {
     font-size: 20px;
@@ -760,13 +832,13 @@ hr {
     z-index: 1;
 }
 
-.hrMargin{
+.hrMargin {
     margin-top: 35px;
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 214, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+}
 
 
 .navRowJ {
@@ -825,7 +897,7 @@ hr {
         width: 95vw;
     }
 
-    .hrMargin{
+    .hrMargin {
         margin-top: 5px;
     }
 
