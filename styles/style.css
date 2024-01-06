@@ -503,7 +503,6 @@ hr {
 
 .cardJ {
     background: none;
-    max-width: 300px;
 }
 
 .lineHeight30 {
@@ -580,6 +579,12 @@ button.carousel-control-next {
     background-position-y: -340px;
 }
 
+@media screen and (max-width: 1591px) {
+    .contactBgJ {
+        background-position-y: 0px;
+    }
+}
+
 .contactIconsJ {
     width: 122px;
     height: auto;
@@ -611,7 +616,7 @@ button.carousel-control-next {
 
 .cardRadiusJ {
     border-radius: 45px;
-    width: 545px;
+    width: 28vw;
 }
 
 .pad0 {
@@ -769,6 +774,10 @@ button.carousel-control-next {
     width: 55%;
 }
 
+.carouselHeightJ {
+    height: 400px;
+}
+
 .aLittleAboutJ2 {
     padding-top: 40px;
     line-height: 40px;
@@ -812,6 +821,15 @@ button.carousel-control-next {
     padding-right: 5px;
     padding-left: 0px;
     width: 36px;
+}
+
+.hover:hover {
+    height: 600%;
+    width: 700px;
+}
+
+.hover {
+    width: 100%;
 }
 
 .rightJ {
@@ -903,6 +921,10 @@ button.carousel-control-next {
 
     .chefJ {
         width: 80%;
+    }
+
+    .mobileCarouselJ {
+        height: 400px;
     }
 
     .banhMiPaddingJ {
@@ -1005,6 +1027,18 @@ button.carousel-control-next {
     .dontBeAfraidBodySizeJ {
         font-size: 20px;
     }
+
+    .viewMenuJ {
+        top: 30%;
+    }
+
+    .viewMenuBtnJ {
+        width: 225px;
+        font-size: 16px;
+        height: 41px;
+    }
+
+
 
     .blueJ2 {
         font-size: 20px;
