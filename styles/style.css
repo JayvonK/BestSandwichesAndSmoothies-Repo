@@ -156,6 +156,10 @@ hr {
     margin-top: 30px;
 }
 
+.bottomMargin {
+    margin-bottom: 30px;
+}
+
 .numberOne {
     font-size: 40px;
     font-family: YuGiOh;
