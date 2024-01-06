@@ -137,6 +137,104 @@ hr {
     margin-top: 30px;
 }
 
+.numberOne {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 533px;
+}
+.numberTwo {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 559px;
+    
+}
+.numberThree {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 624px;
+}
+.numberFour {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 651px;
+    
+}
+.numberFive {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 589px;
+    
+}
+.numberSix {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 662px;
+    
+}
+.numberSeven {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 627px;
+    
+}
+.numberEight {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 394px;
+    
+}
+.numberNine {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 365px;
+}
+.numberTen {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 484px;
+}
+.numberEleven {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 455px;
+}
+.numberTwelve {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 432px;
+}
+.numberThirteen {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 351px;
+}
+.numberFourteen {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 455px;
+}
+.numberFifteen {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 420px;
+}
+.numberSixteen {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 425px;
+}
+.numberSeventeen {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 372px;
+}
+.numberEighteen {
+    font-size: 40px;
+    font-family: YuGiOh;
+    padding-left: 356px;
+}
+
+
 
 @media screen and (max-width: 600px) {
     .pageMargin {
