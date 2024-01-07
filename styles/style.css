@@ -322,7 +322,7 @@ hr {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
     .pageMargin {
         padding-right: 30px;
         padding-left: 30px;
@@ -362,27 +362,27 @@ hr {
 
     .toppingText {
         font-size: 30px;
-        padding-left: 212px;
+        padding-left: 190px;
     }
 
     .pearlText {
         font-size: 30px;
-        padding-left: 103px;
+        padding-left: 79px;
     }
 
     .specialText {
         font-size: 30px;
-        padding-left: 117px;
+        padding-left: 93px;
     }
 
     .smoothieText {
         font-size: 30px;
-        padding-left: 197px;
+        padding-left: 174px;
     }
 
     .slushText {
         font-size: 30px;
-        padding-left: 172px;
+        padding-left: 148px;
     }
 
     .foodText {
