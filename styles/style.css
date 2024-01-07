@@ -745,7 +745,7 @@ button.carousel-control-next {
 }
 
 .blueJ {
-    font-size: 28px;
+    font-size: 32px;
     color: #0084E3;
     padding-top: 70px;
 }
@@ -777,12 +777,12 @@ button.carousel-control-next {
 
 
 .mobileInfoTxt {
-    font-size: 20;
+    font-size: 20px;
     line-height: 35px;
 }
 
 .blueJ2 {
-    font-size: 28px;
+    font-size: 32px;
     padding-top: 25px;
     width: 80%;
     text-decoration: none;
@@ -973,7 +973,7 @@ button.carousel-control-next {
 
     .mobileNavCoverJ {
         width: 100vw;
-        height: 80px;
+        height: 120px;
     }
 
     .aLittleAboutJ {
@@ -984,7 +984,12 @@ button.carousel-control-next {
     .aLittleAboutJ2 {
         font-size: 19px;
         line-height: 30px;
-        width: 310px;
+        width: 315px;
+        padding-top: 17px;
+    }
+
+    .homehrMargin {
+        margin-top: 2px;
     }
 
     .carouselHeightJ {
@@ -993,6 +998,10 @@ button.carousel-control-next {
 
     .aLittleAboutJ2Div {
         width: 95vw;
+    }
+
+    .navLinksJ {
+        font-size: 32px;
     }
 
     .hrMargin {
@@ -1025,10 +1034,11 @@ button.carousel-control-next {
     .contactUsNavJ {
         width: 100vw;
         padding-left: 45px;
-        padding-top: 15px;
+        padding-top: 35px;
     }
 
     .navRowJ {
+        padding-top: 15px;
         width: 100vw;
     }
 
@@ -1043,13 +1053,14 @@ button.carousel-control-next {
     .aboutNavJ {
         width: 100vw;
         padding-left: 45px;
-        padding-top: 15px;
+        padding-top: 35px;
     }
 
     .banhMiNavJ {
         width: 100vw;
         padding-left: 45px;
-        padding-top: 15px;
+        padding-top: 35px;
+        padding-bottom: 40px;
     }
 
     .contactRowJ {
