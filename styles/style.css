@@ -333,11 +333,17 @@ hr {
     width: 270px;
     font-size: 32px;
     font-weight: 600;
+    border-radius: 15px;
 }
 
 .viewSandwichesBtn {
     font-weight: 600;
     width: 250px;
+    border-radius: 15px;
+}
+
+.viewSandwichPad {
+    padding-top: 50px; padding-bottom: 90px;
 }
 
 .btn-primary {
@@ -463,6 +469,7 @@ hr {
     width: 100%;
 }
 
+
 .menuNavJ {
     width: 100px;
 }
@@ -510,8 +517,8 @@ hr {
 }
 
 .hover2:hover {
-    width: 100%;
-    height: 100%
+    width: 90%;
+    height: 90%
 }
 
 .lineHeight30 {
@@ -1078,6 +1085,11 @@ button.carousel-control-next {
         padding-left: 80px;
     }
 
+    .viewSandwichPad {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
     .orderTextJ2 {
         width: 95%;
     }
@@ -1110,7 +1122,7 @@ button.carousel-control-next {
     }
 
     .viewSandwichesBtn {
-        width: 230px;
+        width: 240px;
         height: 43px;
     }
 
