@@ -1039,8 +1039,8 @@ button.carousel-control-next {
 }
 
 .contactPaddingJ {
-    padding-top: 60px;
-    padding-bottom: 70px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .orderTextJ {
@@ -1289,10 +1289,6 @@ button.carousel-control-next {
 
     .contactRowPadding2J {
         padding-top: 2px
-    }
-
-    .contactPaddingJ {
-        padding-bottom: 10px;
     }
 
     .contactUsBodySizeJ {
