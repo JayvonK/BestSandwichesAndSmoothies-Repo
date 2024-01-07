@@ -721,8 +721,8 @@ hr {
 }
 
 .hover2:hover {
-    width: 90%;
-    height: 90%
+    width: 120%;
+    height: 120%
 }
 
 .lineHeight30 {
@@ -1078,8 +1078,8 @@ button.carousel-control-next {
 }
 
 .hover:hover {
-    height: 600%;
-    width: 700px;
+    height: 150%;
+    width: 150%;
 }
 
 .hover {
