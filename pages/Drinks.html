@@ -15,69 +15,81 @@
   <!-- NavBar -->
   <div class="container-fluid">
     <div class="row">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand yellowJ" href="../index.html"> <img class="mobileBSLogo appearJ"
-              src="../assets/bestSandwich logo.png" alt="Picture of Logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" style="width: 45px;"></span>
-          </button>
-          <div class="collapse navbar-collapse centerJ" id="navbarNavAltMarkup">
-            <div class="" style="width: 100%;">
-              <div class="row">
-                <div class="col centerJ">
-                  <div class="row evenJ navRowJ">
-                    <div class="accordion accordion-flush menuNavJ" id="accordionFlushExample">
-                      <div class="accordion-item" style=" background-color: rgba(255, 255, 255, 0); outline: none;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand yellowJ" href="../index.html"> <img class="mobileBSLogo appearJ"
+                        src="../assets/bestSandwich logo.png" alt="Picture of Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="width: 45px;"></span>
+                </button>
+                <div class="collapse navbar-collapse centerJ" id="navbarNavAltMarkup">
+                    <div class="" style="width: 100%;">
+                        <div class="row">
+                            <div class="col centerJ blackBg">
+                                <div class="row evenJ navRowJ">
+                                    <div class="accordion accordion-flush menuNavJ" id="accordionFlushExample">
+                                        <div class="accordion-item"
+                                            style=" background-color: rgba(255, 255, 255, 0); outline: none;">
 
-                        <button class="btn navLinksJ nav-link" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          <p class="yellowJ pB0" style="font-weight: 400;">Menu</p>
-                        </button>
+                                            <button class="btn navLinksJ nav-link" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                <p class="yellowJ pB0" style="font-weight: 400;">Menu</p>
+                                            </button>
 
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                          data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body blackBg"><a class="nav-link navLinksJ yellowJ"
-                              href="../pages/Menu.html">Food</a></div>
-                          <div class="accordion-body blackBg"><a class="nav-link navLinksJ yellowJ"
-                              href="../pages/Drinks.html">Drinks</a></div>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body blackBg mobileNavCoverJ"><a
+                                                        class="nav-link navLinksJ yellowJ"
+                                                        href="./Menu.html">Food</a></div>
+                                                <div class="accordion-body blackBg mobileNavCoverJ"><a
+                                                        class="nav-link navLinksJ yellowJ "
+                                                        href="./Drinks.html">Drinks</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="nav-link yellowJ navLinksJ txtCenterJ aboutNavJ" aria-current="page"
+                                        href="./AboutUs.html">About Us</a>
+                                    <a class="nav-link yellowJ navLinksJ txtCenterJ contactUsNavJ"
+                                        href="./ContactUs.html">Contact Us</a>
+                                    <a class="nav-link yellowJ navLinksJ txtCenterJ banhMiNavJ"
+                                        href="./BanhMi.html">Banh Mi?</a>
+                                </div>
+                            </div>
+
+                            <div class="col-1 centerJ disappearJ">
+                                <a href="../index.html"><img class="logoSizeJ" src="../assets/bestSandwich logo.png"
+                                        alt="Picture of Logo"></a>
+                            </div>
+                            <div class="col yugiJ alignCenterJ disappearJ">
+                                <h1 style="width: 100%" class="txtCenterJ titleFontJ yellowJ">Best Sandwiches &
+                                    Smoothies</h1>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <a class="nav-link yellowJ navLinksJ txtCenterJ contactUsNavJ"
-                      href="../pages/ContactUs.html">Contact
-                      Us</a>
-                    <a class="nav-link yellowJ navLinksJ txtCenterJ aboutNavJ" aria-current="page"
-                      href="../pages/AboutUs.html">About Us</a>
-                    <a class="nav-link yellowJ navLinksJ txtCenterJ banhMiNavJ" href="../pages/BanhMi.html">Banh Mi?</a>
-                  </div>
                 </div>
-
-                <div class="col-1 centerJ disappearJ">
-                  <a href="../index.html"><img class="logoSizeJ" src="../assets/bestSandwich logo.png"
-                      alt="Picture of Logo"></a>
-                </div>
-                <div class="col yugiJ alignCenterJ disappearJ">
-                  <h1 style="width: 100%" class="txtCenterJ titleFontJ yellowJ">Best Sandwiches &
-                    Smoothies</h1>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </nav>
+        </nav>
     </div>
-  </div>
 
   <div class="container-fluid pageMargin">
 
     <!-- Top Five -->
-    <div class="row">
+    <div class="row d-none d-lg-block">
       <div class="headBox">
         <p>Top Sellers</p>
       </div>
     </div>
+
+    <div class="row d-sm-block d-md-none">
+      <div class="headBox">
+        <p>Drinks</p>
+      </div>
+    </div>
+
+
     <div class="d-none d-lg-block">
       <div class="row disappearJ bgWhite">
         <div class="col topFive">
@@ -162,18 +174,17 @@
         </div>
       </div>
     </div>
-    <div class="row d-sm-block d-md-none">
-      <div class="col g-0">
+    <div class="row d-sm-block d-md-none" style="margin-bottom: 30px;">
+      <div class="col g-0 menuImage">
         <img src="../assssssssssssssssssssssssets/mobile1.jpg" style="width: 100%; height: 100%;"
           alt="Banh mi/sandwich">
       </div>
     </div>
-    <div class="row">
-      <div class="headBox">
-        <p>Menu</p>
+    <div class="row d-none d-lg-block">
+      <div class="headBox" >
+        <p>Drinks</p>
       </div>
     </div>
-
 
 
 
@@ -369,8 +380,8 @@
                 <p class="txtCenterJ">Customer</p>
               </div>
               <div class="row centerJ">
-                <img class="dotsJ" src="../assets/DotOutline.png" alt="page dot">
                 <img class="dotsJ" src="../assets/Dot No fill.png" alt="page dot">
+                <img class="dotsJ" src="../assets/DotOutline.png" alt="page dot">
                 <img class="dotsJ" src="../assets/Dot No fill.png" alt="page dot">
               </div>
             </div>
@@ -402,9 +413,9 @@
                 <p class="txtCenterJ">Customer</p>
               </div>
               <div class="row centerJ">
+                <img class="dotsJ" src="../assets/Dot No fill.png" alt="page dot">
+                <img class="dotsJ" src="../assets/Dot No fill.png" alt="page dot">
                 <img class="dotsJ" src="../assets/DotOutline.png" alt="page dot">
-                <img class="dotsJ" src="../assets/Dot No fill.png" alt="page dot">
-                <img class="dotsJ" src="../assets/Dot No fill.png" alt="page dot">
               </div>
             </div>
           </div>
