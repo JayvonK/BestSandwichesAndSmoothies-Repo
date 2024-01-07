@@ -1078,8 +1078,8 @@ button.carousel-control-next {
 }
 
 .hover:hover {
-    height: 150%;
-    width: 150%;
+    height: 10vw;
+    width: 50vw;
 }
 
 .hover {
