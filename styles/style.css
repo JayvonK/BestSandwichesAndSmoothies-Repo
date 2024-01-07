@@ -937,6 +937,10 @@ button.carousel-control-next {
     padding-bottom: 75px;
 }
 
+.gray {
+    color: #5A5656;
+}
+
 @media screen and (max-width: 600px) {
     .behindTheCounterJ {
         font-size: 0px;
