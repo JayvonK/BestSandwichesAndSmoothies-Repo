@@ -43,6 +43,15 @@ body {
     padding-top: 75px;
 }
 
+.hovers {
+    width: 100%;
+}
+
+.hovers:hover {
+    width: 100%;
+    height: 40%
+}
+
 .bgWhite {
     background-color: white;
     margin-bottom: 20px;
