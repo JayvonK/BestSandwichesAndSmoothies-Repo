@@ -343,7 +343,8 @@ hr {
 }
 
 .viewSandwichPad {
-    padding-top: 50px; padding-bottom: 90px;
+    padding-top: 50px;
+    padding-bottom: 90px;
 }
 
 .btn-primary {
@@ -756,7 +757,7 @@ button.carousel-control-next {
     margin-bottom: 2px;
     border-top: 1.5px solid black;
     opacity: 100%;
-    width: 250px;
+    width: 220px;
 }
 
 .learnMorePad {
@@ -933,6 +934,11 @@ button.carousel-control-next {
     color: #FFCC49;
 }
 
+.viewDrinksPad {
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
 @media screen and (max-width: 600px) {
     .behindTheCounterJ {
         font-size: 0px;
@@ -973,7 +979,7 @@ button.carousel-control-next {
     }
 
     .carouselHeightJ {
-    height: 400px;
+        height: 400px;
     }
 
     .aLittleAboutJ2Div {
@@ -1087,7 +1093,7 @@ button.carousel-control-next {
 
     .viewSandwichPad {
         padding-top: 0px;
-        padding-bottom: 10px;
+        padding-bottom: 50px;
     }
 
     .orderTextJ2 {
@@ -1107,13 +1113,23 @@ button.carousel-control-next {
     }
 
     .viewMenuJ {
-        top: 30%;
+        top: 35%;
     }
 
     .viewMenuBtnJ {
         width: 225px;
         font-size: 16px;
         height: 41px;
+    }
+
+    .sloganJ {
+        font-size: 40px;
+        top: 21%;
+    }
+
+    .viewDrinksPad {
+        padding-top: 0px;
+        padding-bottom: 20px;
     }
 
     .mobileArrowsJ {
