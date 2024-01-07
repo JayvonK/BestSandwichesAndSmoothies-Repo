@@ -760,6 +760,10 @@ button.carousel-control-next {
     font-size: 24px;
 }
 
+.mobileNavCoverJ {
+    padding-left: -42px;
+}
+
 .mobileInfoTxt {
     font-size: 20;
     line-height: 35px;
@@ -946,7 +950,8 @@ button.carousel-control-next {
 
     .mobileNavCoverJ {
         width: 100vw;
-        height: 70px;
+        height: 65px;
+
     }
 
     .aLittleAboutJ {
@@ -1129,5 +1134,9 @@ button.carousel-control-next {
 
     a.txtCenterJ {
         text-align: start;
+    }
+
+    .cardJ {
+        width: 300px;
     }
 }
