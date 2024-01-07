@@ -502,8 +502,8 @@ hr {
 }
 
 .banhMiPaddingJ {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 85px;
+    padding-bottom: 75px;
 }
 
 .phoneJ {
@@ -596,7 +596,7 @@ button.carousel-control-next {
     background-image: url(../assets/map.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -340px;
+    background-position-y: -230px;
 }
 
 @media screen and (max-width: 1591px) {
@@ -613,7 +613,7 @@ button.carousel-control-next {
 }
 
 .contactRowPaddingJ {
-    padding-left: 75px;
+    padding-left: 65px;
     padding-top: 7px;
 }
 
@@ -835,11 +835,12 @@ button.carousel-control-next {
     padding-top: 40px;
     line-height: 40px;
     font-size: 24px;
+    width: 41vw;
 }
 
 .contactPaddingJ {
-    padding-top: 40px;
-    padding-bottom: 45px
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
 
 .orderTextJ {
@@ -913,7 +914,7 @@ button.carousel-control-next {
 }
 
 .hrMargin {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .navbar-toggler-icon {
