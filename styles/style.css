@@ -166,12 +166,15 @@ hr {
     padding-left: 533px;
 }
 
+
 .numberTwo {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 559px;
 
+
 }
+
 
 .numberThree {
     font-size: 40px;
@@ -179,40 +182,51 @@ hr {
     padding-left: 624px;
 }
 
+
 .numberFour {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 651px;
 
+
 }
+
 
 .numberFive {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 589px;
 
+
 }
+
 
 .numberSix {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 662px;
 
+
 }
+
 
 .numberSeven {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 627px;
 
+
 }
+
 
 .numberEight {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 394px;
 
+
 }
+
 
 .numberNine {
     font-size: 40px;
@@ -220,11 +234,13 @@ hr {
     padding-left: 365px;
 }
 
+
 .numberTen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 484px;
 }
+
 
 .numberEleven {
     font-size: 40px;
@@ -232,11 +248,13 @@ hr {
     padding-left: 455px;
 }
 
+
 .numberTwelve {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 432px;
 }
+
 
 .numberThirteen {
     font-size: 40px;
@@ -244,11 +262,13 @@ hr {
     padding-left: 351px;
 }
 
+
 .numberFourteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 455px;
 }
+
 
 .numberFifteen {
     font-size: 40px;
@@ -256,17 +276,20 @@ hr {
     padding-left: 420px;
 }
 
+
 .numberSixteen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 425px;
 }
 
+
 .numberSeventeen {
     font-size: 40px;
     font-family: YuGiOh;
     padding-left: 372px;
 }
+
 
 .numberEighteen {
     font-size: 40px;
@@ -310,7 +333,7 @@ hr {
     }
 
 
-    .headBox p {
+    .headBox p  {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -504,7 +527,21 @@ hr {
 .viewMenuBtnJ {
     height: 100px;
     width: 270px;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 15px;
+}
 
+.viewSandwichesBtn {
+    font-weight: 600;
+    width: 290px;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.viewSandwichPad {
+    padding-top: 50px;
+    padding-bottom: 90px;
 }
 
 .btn-primary {
@@ -512,6 +549,22 @@ hr {
     background: radial-gradient(circle, rgba(255, 214, 0, 1) 45%, rgba(255, 199, 0, 1) 85%, rgba(255, 184, 0, 1) 100%);
     border-color: #FFCC49;
     color: black;
+}
+
+.imgHeightJ {
+    height: 200px;
+}
+
+.bbqTxtJ {
+    width: 170px;
+}
+
+.croissantTxtJ {
+    width: 270px;
+}
+
+.croissantMarginJ {
+    margin-bottom: 0px;
 }
 
 .btn-primary:click {
@@ -599,7 +652,9 @@ hr {
 }
 
 .dotsJ {
-    width: 45px;
+    width: 35px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .reviewPaddingJ {
@@ -613,6 +668,7 @@ hr {
     opacity: 100;
     width: 100%;
 }
+
 
 .menuNavJ {
     width: 100px;
@@ -631,8 +687,8 @@ hr {
 }
 
 .footerPaddingJ {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .videoJ {
@@ -642,8 +698,12 @@ hr {
 }
 
 .banhMiPaddingJ {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 85px;
+    padding-bottom: 75px;
+}
+
+.homehrMargin {
+    margin-top: 45px;
 }
 
 .phoneJ {
@@ -655,6 +715,48 @@ hr {
 .cardJ {
     background: none;
 }
+
+.hover2 {
+    width: 100%;
+}
+
+.hover2:hover {
+    width: 90%;
+    height: 90%
+}
+
+.lineHeight30 {
+    line-height: 30px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../assets/caret-left.svg") !important;
+
+    width: 120px;
+    height: 120px;
+
+    margin-top: 40%;
+}
+
+button.carousel-control-prev {
+    opacity: 100%;
+    margin-left: 120px;
+}
+
+button.carousel-control-next {
+    opacity: 100%;
+    margin-right: 120px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../assets/caret-right.svg") !important;
+
+    width: 120px;
+    height: 120px;
+    margin-top: 40%;
+}
+
+
 
 .cuisineJ {
     font-size: 20px;
@@ -694,7 +796,13 @@ hr {
     background-image: url(../assets/map.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -340px;
+    background-position-y: -230px;
+}
+
+@media screen and (max-width: 1591px) {
+    .contactBgJ {
+        background-position-y: 0px;
+    }
 }
 
 .contactIconsJ {
@@ -705,7 +813,7 @@ hr {
 }
 
 .contactRowPaddingJ {
-    padding-left: 75px;
+    padding-left: 65px;
     padding-top: 7px;
 }
 
@@ -728,7 +836,7 @@ hr {
 
 .cardRadiusJ {
     border-radius: 45px;
-    width: 545px;
+    width: 28vw;
 }
 
 .pad0 {
@@ -781,8 +889,8 @@ hr {
 }
 
 .footerIconsJ {
-    width: 120px;
-    height: 100px;
+    width: 6vw;
+    height: auto;
     object-fit: fill;
 }
 
@@ -823,12 +931,17 @@ hr {
     line-height: 42px;
 }
 
+.infoPadJ {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
 .redJ {
     color: red;
 }
 
 .blueJ {
-    font-size: 28px;
+    font-size: 32px;
     color: #0084E3;
     padding-top: 70px;
 }
@@ -837,8 +950,35 @@ hr {
     margin-top: -5px;
 }
 
+.mobileInfoJ {
+    width: 200px;
+    margin-bottom: 0px;
+}
+
+.mobileHr {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    border-top: 1.5px solid black;
+    opacity: 100%;
+    width: 220px;
+}
+
+.learnMorePad {
+    padding-top: 75px;
+}
+
+.mobileInfoHeaderJ {
+    font-size: 24px;
+}
+
+
+.mobileInfoTxt {
+    font-size: 20px;
+    line-height: 35px;
+}
+
 .blueJ2 {
-    font-size: 28px;
+    font-size: 32px;
     padding-top: 25px;
     width: 80%;
     text-decoration: none;
@@ -848,7 +988,10 @@ hr {
     padding-top: 20px;
 }
 
-
+.mobileArrowsJ {
+    width: 0px;
+    height: 0px;
+}
 
 .banhMiHeadJ {
     padding-left: 25px;
@@ -886,15 +1029,18 @@ hr {
     width: 55%;
 }
 
+
+
 .aLittleAboutJ2 {
     padding-top: 40px;
     line-height: 40px;
     font-size: 24px;
+    width: 41vw;
 }
 
 .contactPaddingJ {
-    padding-top: 40px;
-    padding-bottom: 45px
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .orderTextJ {
@@ -931,6 +1077,15 @@ hr {
     width: 36px;
 }
 
+.hover:hover {
+    height: 600%;
+    width: 700px;
+}
+
+.hover {
+    width: 100%;
+}
+
 .rightJ {
     display: flex;
     justify-content: end;
@@ -947,10 +1102,19 @@ hr {
 #flush-collapseOne {
     position: absolute;
     z-index: 1;
+    width: 6vw;
 }
 
-.hrMargin {
-    margin-top: 35px;
+.show {
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    top: 90px;
+    width: 100%;
+}
+
+.hrMargin  {
+    margin-top: 30px;
 }
 
 .navbar-toggler-icon {
@@ -970,6 +1134,15 @@ hr {
 .nav-link:hover {
     text-decoration: underline;
     color: #FFCC49;
+}
+
+.viewDrinksPad {
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
+.gray {
+    color: #5A5656;
 }
 
 @media screen and (max-width: 600px) {
@@ -994,6 +1167,11 @@ hr {
         width: 85%;
     }
 
+    .mobileNavCoverJ {
+        width: 100vw;
+        height: 120px;
+    }
+
     .aLittleAboutJ {
         font-size: 40px;
         text-align: center;
@@ -1002,19 +1180,36 @@ hr {
     .aLittleAboutJ2 {
         font-size: 19px;
         line-height: 30px;
-        width: 310px;
+        width: 315px;
+        padding-top: 17px;
+    }
+
+    .homehrMargin {
+        margin-top: 2px;
+    }
+
+    .carouselHeightJ {
+        height: 400px;
     }
 
     .aLittleAboutJ2Div {
         width: 95vw;
     }
 
-    .hrMargin {
+    .navLinksJ {
+        font-size: 32px;
+    }
+
+    .hrMargin  {
         margin-top: 5px;
     }
 
     .chefJ {
         width: 80%;
+    }
+
+    .mobileCarouselJ {
+        height: 400px;
     }
 
     .banhMiPaddingJ {
@@ -1035,10 +1230,11 @@ hr {
     .contactUsNavJ {
         width: 100vw;
         padding-left: 45px;
-        padding-top: 15px;
+        padding-top: 35px;
     }
 
     .navRowJ {
+        padding-top: 15px;
         width: 100vw;
     }
 
@@ -1053,19 +1249,28 @@ hr {
     .aboutNavJ {
         width: 100vw;
         padding-left: 45px;
-        padding-top: 15px;
+        padding-top: 35px;
     }
 
     .banhMiNavJ {
         width: 100vw;
         padding-left: 45px;
-        padding-top: 15px;
+        padding-top: 35px;
+        padding-bottom: 40px;
     }
 
     .contactRowJ {
         width: 0px;
         font-size: 0px;
         height: 0px;
+    }
+
+    .infoPadJ {
+        padding-bottom: 30px;
+    }
+
+    .learnMorePad {
+        padding-top: 25px;
     }
 
     .contactBgJ {
@@ -1086,10 +1291,6 @@ hr {
         padding-top: 2px
     }
 
-    .contactPaddingJ {
-        padding-bottom: 10px;
-    }
-
     .contactUsBodySizeJ {
         font-size: 18px;
         line-height: 30px;
@@ -1100,6 +1301,11 @@ hr {
         font-size: 18px;
         line-height: 30px;
         padding-left: 80px;
+    }
+
+    .viewSandwichPad {
+        padding-top: 0px;
+        padding-bottom: 50px;
     }
 
     .orderTextJ2 {
@@ -1118,6 +1324,37 @@ hr {
         font-size: 20px;
     }
 
+    .viewMenuJ {
+        top: 35%;
+    }
+
+    .viewMenuBtnJ {
+        width: 225px;
+        font-size: 16px;
+        height: 41px;
+    }
+
+    .sloganJ {
+        font-size: 40px;
+        top: 21%;
+    }
+
+    .viewDrinksPad {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .mobileArrowsJ {
+        width: 28px;
+        height: 30px;
+    }
+
+    .viewSandwichesBtn {
+        width: 240px;
+        height: 43px;
+        font-size: 16px;
+    }
+
     .blueJ2 {
         font-size: 20px;
         padding-top: 10px;
@@ -1126,6 +1363,7 @@ hr {
     .blueJ {
         font-size: 20px;
         padding-top: 10px;
+        text-decoration: none;
     }
 
     .disappearJ {
@@ -1138,5 +1376,9 @@ hr {
 
     a.txtCenterJ {
         text-align: start;
+    }
+
+    .cardJ {
+        width: 300px;
     }
 }

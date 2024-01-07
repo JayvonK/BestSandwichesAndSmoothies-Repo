@@ -26,7 +26,7 @@
                     <div class="collapse navbar-collapse centerJ" id="navbarNavAltMarkup">
                         <div class="" style="width: 100%;">
                             <div class="row">
-                                <div class="col centerJ">
+                                <div class="col centerJ blackBg">
                                     <div class="row evenJ navRowJ">
                                         <div class="accordion accordion-flush menuNavJ" id="accordionFlushExample">
                                             <div class="accordion-item"
@@ -40,19 +40,19 @@
 
                                                 <div id="flush-collapseOne" class="accordion-collapse collapse"
                                                     data-bs-parent="#accordionFlushExample">
-                                                    <div class="accordion-body blackBg"><a
+                                                    <div class="accordion-body blackBg mobileNavCoverJ"><a
                                                             class="nav-link navLinksJ yellowJ"
                                                             href="./pages/Menu.html">Food</a></div>
-                                                    <div class="accordion-body blackBg"><a
-                                                            class="nav-link navLinksJ yellowJ"
+                                                    <div class="accordion-body blackBg mobileNavCoverJ"><a
+                                                            class="nav-link navLinksJ yellowJ "
                                                             href="./pages/Drinks.html">Drinks</a></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <a class="nav-link yellowJ navLinksJ txtCenterJ contactUsNavJ"
-                                            href="./pages/ContactUs.html">Contact Us</a>
                                         <a class="nav-link yellowJ navLinksJ txtCenterJ aboutNavJ" aria-current="page"
                                             href="./pages/AboutUs.html">About Us</a>
+                                        <a class="nav-link yellowJ navLinksJ txtCenterJ contactUsNavJ"
+                                            href="./pages/ContactUs.html">Contact Us</a>
                                         <a class="nav-link yellowJ navLinksJ txtCenterJ banhMiNavJ"
                                             href="./pages/BanhMi.html">Banh Mi?</a>
                                     </div>
@@ -74,18 +74,37 @@
         </div>
     </div>
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide disappearJ" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
+            <div class="carousel-item active" data-bs-interval="2600">
                 <img src="./assets/realBanhMI.png" class="d-block w-100 carouselHeightJ imgCoverJ"
                     alt="Picture of tasty Banh Mi">
             </div>
-            <div class="carousel-item" data-bs-interval="5000">
+            <div class="carousel-item" data-bs-interval="2600">
                 <img src="./assets/realBanhMi2.png" class="d-block w-100 carouselHeightJ imgCoverJ"
                     alt="Picture of tasty Banh Mi">
             </div>
-            <div class="carousel-item" data-bs-interval="5000">
+            <div class="carousel-item" data-bs-interval="2600">
                 <img src="./assets/realBanhMi3.png" class="d-block w-100 carouselHeightJ imgCoverJ"
+                    alt="Picture of tasty Banh Mi">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="carouselExampleSlidesOnly " class="carousel slide appearJ" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="2600">
+                <img src="./assets/mobileCarousel1.png" class="d-block w-100 carouselHeightJ imgCoverJ"
+                    alt="Picture of tasty Banh Mi">
+            </div>
+            <div class="carousel-item" data-bs-interval="2600">
+                <img src="./assets/mobileCarousel2.png" class="d-block w-100 carouselHeightJ imgCoverJ"
+                    alt="Picture of tasty Banh Mi">
+            </div>
+            <div class="carousel-item" data-bs-interval="2600">
+                <img src="./assets/mobileCarousel3.png" class="d-block w-100 carouselHeightJ imgCoverJ"
                     alt="Picture of tasty Banh Mi">
             </div>
         </div>
@@ -94,13 +113,17 @@
     <h1 class="absoluteJ whiteJ sloganJ sansCollectionJ disappearJ" style="width: 1040px;">"A banh mi a day keeps the
         hunger away"
     </h1>
+    <h1 class="absoluteJ whiteJ sloganJ sansCollectionJ appearJ" style="width: 350px;">Best Sandwiches & Smoothies
+    </h1>
 
-    <a class="absoluteJ viewMenuJ" href="#menu"><button class="btn btn-primary viewMenuBtnJ sansCollectionJ">View
-            Menu</button></a>
+    <a class="absoluteJ viewMenuJ" href="#menu"><button class="btn btn-primary viewMenuBtnJ sansCollectionJ">View Menu
+            <img src="./assets/viewMenuArr.png" class="disappearJ" style="padding-bottom: 10px; padding-left: 4px;"
+                alt="arrow down"><img src="./assets/mobileViewMenuArr.png" class="mobileArrowsJ"
+                style="padding-bottom: 5px; margin-left: 15px;" alt="arrow down"></button></a>
 
-    <div class="container-fluid bgWhiteJ" style="padding-top: 50px; padding-bottom: 100px;">
-        <div class="row disappearJ">
-            <div class="col-4 ">
+    <div class="container-fluid bgWhiteJ infoPadJ">
+        <div class="row">
+            <div class="col-4 disappearJ">
                 <div class="row centerJ">
                     <img class="infoLogoSizeJ" src="./assets/open-sign.png" alt="Picture of an open sign">
                 </div>
@@ -108,35 +131,73 @@
                     <h3 class="infoTxtSizeJ">OPEN HOURS</h3>
                 </div>
                 <div class="row txtCenterJ centerJ sansCollectionJ" style="padding-top: 10px">
-                    <h3 class="infoTxtSizeJ sansCollectionJ" style="width: 360px;">Mon - Tues: 9-5
+                    <h3 class="infoTxtSizeJ sansCollectionJ gray" style="width: 360px;">Mon - Tues: 9-5
                         Wednesday: CLOSED
                         Thu - Sun: 9-5
                     </h3>
                 </div>
 
             </div>
-            <div class="col-4">
-                <div class="row centerJ"><img class="infoLogoSizeJ2" src="./assets/location.png"
+            <div class="col-12  col-md-4">
+                <div class="row centerJ disappearJ"><img class="infoLogoSizeJ2" src="./assets/location.png"
                         alt="Picture of location pin">
                 </div>
-                <div class="row txtCenterJ abrilFatfaceJ" style="padding-top: 30px">
+                <div class="row txtCenterJ abrilFatfaceJ disappearJ" style="padding-top: 30px">
                     <h3 class="infoTxtSizeJ">LOCATION</h3>
                 </div>
-                <div class="row txtCenterJ centerJ sansCollectionJ" style="padding-top: 10px">
-                    <h3 class="infoTxtSizeJ sansCollectionJ" style="width: 420px;">3330 E Hammer Ln Ste C Stockton, CA
+                <div class="row txtCenterJ centerJ sansCollectionJ disappearJ" style="padding-top: 10px">
+                    <h3 class="infoTxtSizeJ sansCollectionJ gray" style="width: 420px;">3330 E Hammer Ln Ste C Stockton,
+                        CA
                         95212</h3>
                 </div>
 
-                <div class="row" style="padding-top: 75px;">
-                    <a class="centerJ" style="text-decoration: none;" href="./pages/ContactUs.html">
-                        <button class="btn btn-primary sansCollectionJ" style="width: 270px; height: 100px">Learn
-                            More</button>
-                    </a>
+                <div class="appearJ">
+                    <div class="row centerJ ">
+                        <p class="abrilFatfaceJ mobileInfoJ mobileInfoHeaderJ">Open Hours</p>
+                    </div>
+                    <div class="row centerJ ">
+                        <hr class="mobileHr">
+                    </div>
+                    <div class="row centerJ ">
+                        <p class="sansCollectionJ mobileInfoJ mobileInfoTxt"> Mon - Tues: 9-5
+                            Wednesday: CLOSED
+                            Thur - Sun: 9-5 </p>
+                    </div>
+                    <div class="row centerJ " style="margin-top: 30px;">
+                        <p class="abrilFatfaceJ mobileInfoJ mobileInfoHeaderJ">Location</p>
+                    </div>
+                    <div class="row centerJ ">
+                        <hr class="mobileHr">
+                    </div>
+                    <div class="row centerJ ">
+                        <p class="sansCollectionJ mobileInfoJ mobileInfoTxt"> 3330 E Hammer Ln Ste C Stockton, CA 95212
+                        </p>
+                    </div>
+                    <div class="row centerJ " style="margin-top: 30px;">
+                        <p class="abrilFatfaceJ mobileInfoJ mobileInfoHeaderJ">Contact</p>
+                    </div>
+                    <div class="row centerJ ">
+                        <hr class="mobileHr">
+                    </div>
+
+                    <div class="row centerJ ">
+                        <p class="sansCollectionJ mobileInfoJ mobileInfoTxt">(209) 475-0652</p>
+                    </div>
+                </div>
+
+
+                <div class="row learnMorePad">
+                    <a class="centerJ" href="./pages/ContactUs.html" style="text-decoration: none;"><button
+                            class="btn btn-primary viewMenuBtnJ sansCollectionJ">Learn More <img
+                                src="./assets/learnMoreArr.png" class="disappearJ"
+                                style="padding-bottom: 10px; padding-left: 4px;" alt="arrow right"><img
+                                src="./assets/learnMoreArr.png" class="mobileArrowsJ"
+                                style="padding-bottom: 5px; margin-left: 15px;" alt="arrow right"></button></a>
                 </div>
 
 
             </div>
-            <div class="col-4">
+            <div class="col-4 disappearJ">
                 <div class="row centerJ">
                     <img class="infoLogoSizeJ imgCoverJ" src="./assets/contact-mail.png" alt="Picture of mail icon">
                 </div>
@@ -144,14 +205,14 @@
                     <h3 class="infoTxtSizeJ">CONTACT</h3>
                 </div>
                 <div class="row txtCenterJ centerJ sansCollectionJ" style="padding-top: 10px">
-                    <h3 class="infoTxtSizeJ sansCollectionJ" style="width: 420px;">(209) 475-0652</h3>
+                    <h3 class="infoTxtSizeJ sansCollectionJ gray" style="width: 420px;">(209) 475-0652</h3>
                 </div>
 
             </div>
         </div>
     </div>
 
-    <div class="container-fluid menuPaddingJ">
+    <div class="container-fluid menuPaddingJ" id="menu">
         <div class="row homePageMargin">
             <div class="col">
                 <h2 class="whiteJ abrilFatfaceJ cuisineJ disappearJ">Vietnamese Cuisine</h2>
@@ -167,16 +228,17 @@
 
             </div>
             <div class="col-8 disappearJ">
-                <p id="menu" class="whiteJ foodInfoJ sansCollectionJ">At best sandwiches we offer the many sandwiches
+                <p class="whiteJ foodInfoJ sansCollectionJ">At best sandwiches we offer the many sandwiches
                     that are apart of the Vietnamese
                     cuisine. Don’t be afraid to order yourself a sandwich and give it a try, because I guarantee that
                     you won’t regret it!. Down below are our top 5 popular sandwiches.</p>
             </div>
         </div>
-        <div class="row evenJ homePageMargin disappearJ">
-            <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/banhMiCard1.png" class="card-img-top" alt="Picture of Grilled PorkBanh Mi">
+        <div class="row evenJ homePageMargin disappearJ" style="margin-top: 75px;">
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img class="img-fluid hover" src="./assets/banhMiCard1.png" class="card-img-top"
+                        alt="Picture of Grilled PorkBanh Mi">
                     <div class="card-body">
                         <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Favorite <span
                                 class="sandwichJ">Grilled Pork</span> $5.79</p>
@@ -190,9 +252,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/banhMiCard2.png" class="card-img-top" alt="Picture of Vegetarian Banh Mi">
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img class="img-fluid hover" src="./assets/banhMiCard2.png" class="card-img-top"
+                        alt="Picture of Vegetarian Banh Mi">
                     <div class="card-body">
                         <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Diet Friendly <span
                                 class="sandwichJ">Vegetarian</span> $5.79</p>
@@ -206,12 +269,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/BanhMiCard3.png" class="card-img-top" alt="Picture of BBQ Pork Banh Mi">
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img class="img-fluid hover" src="./assets/BanhMiCard3.png" class="card-img-top"
+                        alt="Picture of BBQ Pork Banh Mi">
                     <div class="card-body">
-                        <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">Top Seller <span
-                                class="sandwichJ">BBQ Pork</span> $5.79</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 bbqTxtJ">Top Seller <span class="sandwichJ">BBQ
+                                Pork</span> $5.79</p>
                         <div class="row starRowJ">
                             <img class="star2J" src="./assets/Star.png" alt="Picture of star">
                             <img class="star2J" src="./assets/Star.png" alt="Picture of star">
@@ -222,12 +286,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/banhMiCard4.png" class="card-img-top" alt="Picture of Ham and Cheese Croissant">
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img class="img-fluid hover" src="./assets/banhMiCard4.png" class="card-img-top"
+                        alt="Picture of Ham and Cheese Croissant">
                     <div class="card-body">
-                        <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Croissant <span
-                                class="sandwichJ">H & C Croissant</span> $6.49</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 croissantMarginJ">#1 Croissant</p>
+                        <p class="card-text sansCollectionJ sandwichJ croissantTxtJ croissantMarginJ">H & C Croissant
+                        </p>
+                        <p class="card-text sansCollectionJ sandwichJ2">$6.49</p>
+
+
                         <div class="row starRowJ">
                             <img class="star2J" src="./assets/Star.png" alt="Picture of star">
                             <img class="star2J" src="./assets/Star.png" alt="Picture of star">
@@ -238,12 +307,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/banhMiCard5.png" class="card-img-top" alt="Picture of Ham and Cheese Baguette">
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img class="img-fluid hover" src="./assets/banhMiCard5.png" class="card-img-top"
+                        alt="Picture of Ham and Cheese Baguette">
                     <div class="card-body">
-                        <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Baguette <span
-                                class="sandwichJ">H & C Baguette</span> $6.19</p>
+                        <p class="card-text sansCollectionJ sandwichJ2 croissantMarginJ">#1 Baguette</p>
+                        <p class="card-text sansCollectionJ sandwichJ croissantTxtJ croissantMarginJ">H & C Baguette</p>
+                        <p class="card-text sansCollectionJ sandwichJ2">$6.19</p>
                         <div class="row starRowJ">
                             <img class="star2J" src="./assets/Star.png" alt="Picture of star">
                             <img class="star2J" src="./assets/Star.png" alt="Picture of star">
@@ -255,8 +326,126 @@
                 </div>
             </div>
         </div>
-        <div class="row centerJ my-4">
-            <button class="btn btn-primary" style="width: 250px;">View Sandwiches</button>
+
+
+        <!-- Mobile Carousel -->
+        <div id="carouselExampleSlidesOnly " class="carousel slide appearJ" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img class="img-fluid hover" src="./assets/banhMiCard1.png" class="card-img-top"
+                                alt="Picture of Grilled PorkBanh Mi">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Favorite <span
+                                        class="sandwichJ">Grilled Pork</span> $5.79</p>
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img class="img-fluid hover" src="./assets/banhMiCard2.png" class="card-img-top"
+                                alt="Picture of Vegetarian Banh Mi">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 sandwichTxtJ">#1 Diet Friendly <span
+                                        class="sandwichJ">Vegetarian</span> $5.79</p>
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img class="img-fluid hover" src="./assets/BanhMiCard3.png" class="card-img-top"
+                                alt="Picture of BBQ Pork Banh Mi">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 bbqTxtJ">Top Seller <span
+                                        class="sandwichJ">BBQ
+                                        Pork</span> $5.79</p>
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img class="img-fluid hover" src="./assets/banhMiCard4.png" class="card-img-top"
+                                alt="Picture of Ham and Cheese Croissant">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 croissantMarginJ">#1 Croissant</p>
+                                <p class="card-text sansCollectionJ sandwichJ croissantTxtJ croissantMarginJ">H & C
+                                    Croissant
+                                </p>
+                                <p class="card-text sansCollectionJ sandwichJ2">$6.49</p>
+
+
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img class="img-fluid hover" src="./assets/banhMiCard5.png" class="card-img-top"
+                                alt="Picture of Ham and Cheese Baguette">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 croissantMarginJ">#1 Baguette</p>
+                                <p class="card-text sansCollectionJ sandwichJ croissantTxtJ croissantMarginJ">H & C
+                                    Baguette</p>
+                                <p class="card-text sansCollectionJ sandwichJ2">$6.19</p>
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="Picture of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row centerJ viewSandwichPad">
+            <a href="./pages/Menu.html" class="centerJ" style="text-decoration: none;">
+                <button class="btn btn-primary sansCollectionJ viewSandwichesBtn disappearJ">View Sandwiches <img
+                        src="./assets/viewSandwichesArr.png" alt="arrow right"
+                        style="padding-left: 25px; padding-bottom: 2px;"></button>
+                <button class="btn btn-primary sansCollectionJ viewSandwichesBtn appearJ">View More<img
+                        src="./assets/viewSandwichesArr.png" alt="arrow right"
+                        style="padding-left: 30px; padding-bottom: 2px;"></button></a>
+
         </div>
         <div class="row homePageMargin disappearJ">
             <div class="col">
@@ -278,314 +467,427 @@
                     options.</p>
             </div>
         </div>
-        <div class="row evenJ homePageMargin disappearJ">
-            <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/drinkCard1.png" class="card-img-top" alt="...">
+        <div class="row evenJ homePageMargin disappearJ" style="margin-top: 75px;">
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img src="./assets/drinkCard1.png" class="card-img-top imgHeightJ hover2" alt="...">
                     <div class="card-body">
                         <p class="card-text sansCollectionJ sandwichJ2 taroTxtJ">#1 Favorite <span
                                 class="sandwichJ">Tangy Taro</span> $5.89</p>
                         <div class="row starRowJ">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/drinkCard2.png" class="card-img-top" alt="...">
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img src="./assets/drinkCard2.png" class="card-img-top imgHeightJ hover2" alt="...">
                     <div class="card-body">
                         <p class="card-text sansCollectionJ sandwichJ2 greenTeaTxtJ">"The Go To Drink" <span
                                 class="sandwichJ">Green Tea Gangbusters</span> $5.89</p>
                         <div class="row starRowJ">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/drinkCard3.png" class="card-img-top" alt="...">
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img src="./assets/drinkCard3.png" class="card-img-top imgHeightJ hover2" alt="...">
                     <div class="card-body">
                         <p class="card-text sansCollectionJ sandwichJ2 thaiTeaTxtJ">Top Seller <span
                                 class="sandwichJ">Iced Thai Tea</span> $5.69</p>
                         <div class="row starRowJ">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/drinkCard4.png" class="card-img-top" alt="...">
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img src="./assets/drinkCard4.png" class="card-img-top imgHeightJ hover2" alt="...">
                     <div class="card-body">
                         <p class="card-text sansCollectionJ sandwichJ2 avocadoTxtJ">#1 Recommended <span
                                 class="sandwichJ">Appealing Avocado</span> $5.89</p>
                         <div class="row starRowJ">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col centerJ">
+                <div class="card cardJ">
+                    <img src="./assets/drinkCard5.png" class="card-img-top imgHeightJ hover2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text sansCollectionJ sandwichJ2 croissantMarginJ">#2 Recommended</p>
+                        <p class="card-text sansCollectionJ sandwichJ croissantTxtJ croissantMarginJ">HoneyDew</p>
+                        <p class="card-text sansCollectionJ sandwichJ croissantTxtJ croissantMarginJ">Milk Tea</p>
+                        <p class="card-text sansCollectionJ sandwichJ2">$5.69</p>
+
+                        <div class="row starRowJ">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                            <img class="star2J" src="./assets/Star.png" alt="image of star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExampleSlidesOnly " class="carousel slide appearJ" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img src="./assets/drinkCard1.png" class="card-img-top imgHeightJ hover2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 taroTxtJ">#1 Favorite <span
+                                        class="sandwichJ">Tangy Taro</span> $5.89</p>
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img src="./assets/drinkCard2.png" class="card-img-top imgHeightJ hover2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 greenTeaTxtJ">"The Go To Drink" <span
+                                        class="sandwichJ">Green Tea Gangbusters</span> $5.89</p>
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img src="./assets/drinkCard3.png" class="card-img-top imgHeightJ hover2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 thaiTeaTxtJ">Top Seller <span
+                                        class="sandwichJ">Iced Thai Tea</span> $5.69</p>
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img src="./assets/drinkCard4.png" class="card-img-top imgHeightJ hover2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 avocadoTxtJ">#1 Recommended <span
+                                        class="sandwichJ">Appealing Avocado</span> $5.89</p>
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2600">
+                    <div class="row centerJ">
+                        <div class="card cardJ">
+                            <img src="./assets/drinkCard5.png" class="card-img-top imgHeightJ hover2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text sansCollectionJ sandwichJ2 croissantMarginJ">#2 Recommended</p>
+                                <p class="card-text sansCollectionJ sandwichJ croissantTxtJ croissantMarginJ">HoneyDew
+                                </p>
+                                <p class="card-text sansCollectionJ sandwichJ croissantTxtJ croissantMarginJ">Milk Tea
+                                </p>
+                                <p class="card-text sansCollectionJ sandwichJ2">$5.69</p>
+
+                                <div class="row starRowJ">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                    <img class="star2J" src="./assets/Star.png" alt="image of star">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row centerJ viewDrinksPad">
+            <a href="./pages/Drinks.html" class="centerJ" style="text-decoration: none;"><button
+                    class="btn btn-primary sansCollectionJ viewSandwichesBtn disappearJ">View Drinks<img
+                        src="./assets/viewSandwichesArr.png" alt="arrow right"
+                        style="padding-left: 30px; padding-bottom: 2px;"><button
+                        class="btn btn-primary sansCollectionJ viewSandwichesBtn appearJ">View More<img
+                            src="./assets/viewSandwichesArr.png" alt="arrow right"
+                            style="padding-left: 30px; padding-bottom: 2px;"></button></button></a>
+
+
+        </div>
+    </div>
+    <div class="container-fluid reviewPaddingJ disappearJ">
+        <div id="carouselExample" class="carousel slide bgWhiteJ">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="padding-top: 70px; padding-bottom: 40px;">
+                    <div class="row centerJ">
+                        <img class="reviewImgJ" src="./assets/Ellipse 1.png" alt="Picture of customer 1">
+                    </div>
+                    <div class="row centerJ" style="padding-top: 15px; padding-bottom: 15px;">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                    </div>
+                    <div class="row">
+                        <p class="txtCenterJ sansCollectionJ lineHeight30"
+                            style="padding-left: 21vw; padding-right: 21vw;">
+                            The BEST place to get banh mi and smoothies in Stockton. Their sandwiches are smaller
+                            compared to other restaurants but are packed with sooo much flavor. I usually go for the
+                            #3 grilled pork and maybe an occasional almond/avocado smoothie. Their boba is better
+                            than some shops that specialize in boba drinks. It's always chewy and sweet. This place
+                            is cash only and I've seen the same lady at the front register for years now. She's
+                            sweet and I could tell she is a hard worker. Always gotta support this place when I have
+                            a craving for it!!
+                        </p>
+                    </div>
+                    <div class="row centerJ">
+                        <img class="quotesJ" src="./assets/Quotes.png" alt="Picture of quotes icon">
+                    </div>
+                    <div class="row">
+                        <p class="txtCenterJ croissantMarginJ" style="font-size: 20px; font-weight: 600;">Tina T</p>
+                    </div>
+                    <div class="row">
+                        <p class="txtCenterJ" style="font-size: 15px; opacity: 66%;">Customer</p>
+                    </div>
+                    <div class="row centerJ">
+                        <img class="dotsJ" src="./assets/DotOutline.png" alt="picture of a filled dot">
+                        <img class="dotsJ" src="./assets/Dot No fill.png" alt="picture of a dot">
+                        <img class="dotsJ" src="./assets/Dot No fill.png" alt="picture of a dot">
+                    </div>
+                </div>
+                <div class="carousel-item " style="padding-top: 70px; padding-bottom: 40px;">
+                    <div class="row centerJ">
+                        <img class="reviewImgJ" src="./assets/Ellipse 2.png" alt="Picture of customer 2">
+                    </div>
+                    <div class="row centerJ" style="padding-top: 15px; padding-bottom: 15px;">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                    </div>
+                    <div class="row">
+                        <p class="txtCenterJ sansCollectionJ lineHeight30"
+                            style="padding-left: 21vw; padding-right: 21vw;">
+                            Their sandwiches are really good and I usually grasp towards their grilled pork banh mi.
+                            Their milk tea is also one of my favorites and they are literally the sweetest owners. I'll
+                            admit I'm a softie for families who own businesses but they really do work hard and I hope
+                            they are living happily.
+                        </p>
+                    </div>
+                    <div class="row centerJ">
+                        <img class="quotesJ" src="./assets/Quotes.png" alt="Icon of quotations">
+                    </div>
+                    <div class="row">
+                        <p class="txtCenterJ croissantMarginJ" style="font-size: 20px; font-weight: 600;">Kaylia V.</p>
+                    </div>
+                    <div class="row">
+                        <p class="txtCenterJ" style="font-size: 15px; opacity: 66%;">Customer</p>
+                    </div>
+                    <div class="row centerJ">
+                        <img class="dotsJ" src="./assets/Dot No fill.png" alt="picture of a dot">
+                        <img class="dotsJ" src="./assets/DotOutline.png" alt="picture of a filled dot">
+                        <img class="dotsJ" src="./assets/Dot No fill.png" alt="picture of a dot">
+                    </div>
+                </div>
+                <div class="carousel-item" style="padding-top: 70px; padding-bottom: 40px;">
+                    <div class="row centerJ">
+                        <img class="reviewImgJ" src="./assets/Ellipse 3.png" alt="picture of customer 3">
+                    </div>
+                    <div class="row centerJ" style="padding-top: 15px; padding-bottom: 15px;">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                        <img class="starJ" src="./assets/Star.png" alt="image of star">
+                    </div>
+                    <div class="row">
+                        <p class="txtCenterJ sansCollectionJ lineHeight30"
+                            style="padding-left: 21vw; padding-right: 21vw;">
+                            I live in LA so I've tried a lot of different banh mi places but this is hands down my
+                            favorite. The filling is the same as other places but the bread here is crunchy because it's
+                            toasted so it's nice and warm but the veggies inside are still cool/room temperature. Also,
+                            there is not a lot of bread as in its mostly the outside of the baguette if that makes
+                            sense. This place is cash only so just a heads up!Tip: try the grilled pork and BBQ pork
+                            banh mi with jalapeños, you will not regret. The mango smoothie and lychee smoothie are also
+                            delicious.
+                        </p>
+                    </div>
+                    <div class="row centerJ">
+                        <img class="quotesJ" src="./assets/Quotes.png" alt="image of quotations icon">
+                    </div>
+                    <div class="row">
+                        <p class="txtCenterJ croissantMarginJ" style="font-size: 20px; font-weight: 600;">Elaine H.</p>
+                    </div>
+                    <div class="row">
+                        <p class="txtCenterJ" style="font-size: 15px; opacity: 66%;">Customer</p>
+                    </div>
+                    <div class="row centerJ">
+                        <img class="dotsJ" src="./assets/Dot No fill.png" alt="picture of a dot">
+                        <img class="dotsJ" src="./assets/Dot No fill.png" alt="picture of a dot">
+                        <img class="dotsJ" src="./assets/DotOutline.png" alt="picture of a filled dot">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <hr class="yellowJ hrLineJ homehrMargin">
+
+    <div class="container-fluid footerPaddingJ disappearJ">
+        <div class="row" style="padding-top: 45px; padding-bottom: 20px;">
+            <div class="col-4" style="padding-left: 3%;">
+                <div class="row yellowJ abrilFatfaceJ">
+                    <h2 class="footerFontSize3">Best Sandwiches</h2>
+                </div>
+                <div class="row yellowJ abrilFatfaceJ">
+                    <h2 class="footerFontSize3">& Smoothies</h2>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 2%;">
+                <div class="row">
+                    <div class="col">
+                        <div class="row sansCollectionJ">
+                            <p class="yellowJ abrilFatfaceJ footerFontSize2">HOURS</p>
+                            <p class="yellowJ footerFontSize">Mon & Tue : 9 am - 5 pm</p>
+                            <p class="yellowJ footerFontSize">CLOSED WEDNESDAY</p>
+                            <p class="yellowJ footerFontSize">Thu - Sun : 9 am - 5pm</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="row sansCollectionJ">
+                            <p class="yellowJ abrilFatfaceJ footerFontSize2">CONTACT US</p>
+                            <p class="yellowJ footerFontSize">
+                                <img src="../assets/phone symbol.png" alt="icon of a phone">
+                                <a class="yellowJ" href="" style="padding-left: 15px;">(209) 475-0652</a>
+                            </p>
+                            <p class="yellowJ footerFontSize">3330 E Hammer Ln Ste</p>
+                            <p class="yellowJ footerFontSize">C Stockton, CA 95212</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="row">
+                            <p class="yellowJ abrilFatfaceJ footerFontSize2">LINKS</p>
+                        </div>
+                        <div class="row">
+                            <a class="footerIconsJ" href="https://m.facebook.com/profile.php?id=111693338885516"
+                                target="_blank">
+                                <img class="img-fluid" src="../assets/FACEBOOK.png" alt="facebook icon">
+                            </a>
+                            <a class="footerIconsJ"
+                                href="https://www.yelp.com/biz/best-sandwiches-and-smoothies-stockton" target="_blank">
+                                <img class="img-fluid" src="../assets/icons8-yelp-100.png" alt="yelp icon">
+                            </a>
+                            <a class="footerIconsJ" href="../index.html">
+                                <img class="img-fluid" src="../assets/bestSandwich logo.png" alt="best sandwich logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid appearJ" style="padding-left: 20px; padding-right: 20px;">
+        <div class="row">
+            <div class="col">
+                <p class="yellowJ footerFontSize" style="margin-bottom: 5px;">
+                    <img class="phoneImageJ" src="../assets/phone symbol.png" alt="icon of phone">
+                    <a class="yellowJ" href="" style="padding-left: 15px">(209) 475-0652</a>
+                </p>
+                <p class="yellowJ footerFontSize" style="width: 115px;">
+                    3330 E Hammer Ln Ste C Stockton, CA 95212
+                </p>
             </div>
             <div class="col">
-                <div class="card cardJ" style="width: 280px;">
-                    <img src="./assets/drinkCard5.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text sansCollectionJ sandwichJ2 greenTeaTxtJ">#2 Recommended <span
-                                class="sandwichJ"> HoneyDew Milk Tea</span> $5.69</p>
-                        <div class="row starRowJ">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                            <img class="star2J" src="./assets/Star.png" alt="">
-                        </div>
-                    </div>
+                <div class="row rightJ">
+                    <a class="footerIconsMobileJ" href="https://m.facebook.com/profile.php?id=111693338885516"
+                        target="_blank">
+                        <img class="img-fluid" src="../assets/FACEBOOK.png" alt="facebook icon">
+                    </a>
+                    <a class="footerIconsMobileJ" href="https://www.yelp.com/biz/best-sandwiches-and-smoothies-stockton"
+                        target="_blank">
+                        <img class="img-fluid" src="../assets/icons8-yelp-100.png" alt="yelp icon">
+                    </a>
+                    <a class="footerIconsMobileJ" href="../index.html">
+                        <img class="img-fluid" src="../assets/bestSandwich logo.png" alt="best sandwich logo">
+                    </a>
+                </div>
+                <div class="row">
+                    <p class="bSMobileFooterJ yellowJ" style="padding-top: 8px; text-align: end;">Best Sandwiches &
+                        Smoothies</p>
                 </div>
             </div>
         </div>
-        <div class="row centerJ my-4">
-            <button class="btn btn-primary" style="width: 250px;">View Drinks</button>
-        </div>
-        <div class="container-fluid reviewPaddingJ disappearJ">
-            <div id="carouselExample" class="carousel slide bgWhiteJ">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row centerJ">
-                            <img class="reviewImgJ" src="./assets/Ellipse 1.png" alt="">
-                        </div>
-                        <div class="row centerJ">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                        </div>
-                        <div class="row">
-                            <p class="txtCenterJ">
-                                The BEST place to get banh mi and smoothies in Stockton. Their sandwiches are smaller
-                                compared to other restaurants but are packed with sooo much flavor. I usually go for the
-                                #3 grilled pork and maybe an occasional almond/avocado smoothie. Their boba is better
-                                than some shops that specialize in boba drinks. It's always chewy and sweet. This place
-                                is cash only and I've seen the same lady at the front register for years now. She's
-                                sweet and I could tell she is a hard worker. Always gotta support this place when I have
-                                a craving for it!!
-                            </p>
-                        </div>
-                        <div class="row centerJ">
-                            <img class="quotesJ" src="./assets/Quotes.png" alt="">
-                        </div>
-                        <div class="row">
-                            <p class="txtCenterJ">Tina T</p>
-                        </div>
-                        <div class="row">
-                            <p class="txtCenterJ">Customer</p>
-                        </div>
-                        <div class="row centerJ">
-                            <img class="dotsJ" src="./assets/DotOutline.png" alt="">
-                            <img class="dotsJ" src="./assets/Dot No fill.png" alt="">
-                            <img class="dotsJ" src="./assets/Dot No fill.png" alt="">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row centerJ">
-                            <img class="reviewImgJ" src="./assets/Ellipse 1.png" alt="">
-                        </div>
-                        <div class="row centerJ">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                        </div>
-                        <div class="row">
-                            <p class="txtCenterJ">
-                                The BEST place to get banh mi and smoothies in Stockton. Their sandwiches are smaller
-                                compared to other restaurants but are packed with sooo much flavor. I usually go for the
-                                #3 grilled pork and maybe an occasional almond/avocado smoothie. Their boba is better
-                                than some shops that specialize in boba drinks. It's always chewy and sweet. This place
-                                is cash only and I've seen the same lady at the front register for years now. She's
-                                sweet and I could tell she is a hard worker. Always gotta support this place when I have
-                                a craving for it!!
-                            </p>
-                        </div>
-                        <div class="row centerJ">
-                            <img class="quotesJ" src="./assets/Quotes.png" alt="">
-                        </div>
-                        <div class="row">
-                            <p class="txtCenterJ">Tina T</p>
-                        </div>
-                        <div class="row">
-                            <p class="txtCenterJ">Customer</p>
-                        </div>
-                        <div class="row centerJ">
-                            <img class="dotsJ" src="./assets/DotOutline.png" alt="">
-                            <img class="dotsJ" src="./assets/Dot No fill.png" alt="">
-                            <img class="dotsJ" src="./assets/Dot No fill.png" alt="">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row centerJ">
-                            <img class="reviewImgJ" src="./assets/Ellipse 1.png" alt="">
-                        </div>
-                        <div class="row centerJ">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                            <img class="starJ" src="./assets/Star.png" alt="">
-                        </div>
-                        <div class="row">
-                            <p class="txtCenterJ">
-                                The BEST place to get banh mi and smoothies in Stockton. Their sandwiches are smaller
-                                compared to other restaurants but are packed with sooo much flavor. I usually go for the
-                                #3 grilled pork and maybe an occasional almond/avocado smoothie. Their boba is better
-                                than some shops that specialize in boba drinks. It's always chewy and sweet. This place
-                                is cash only and I've seen the same lady at the front register for years now. She's
-                                sweet and I could tell she is a hard worker. Always gotta support this place when I have
-                                a craving for it!!
-                            </p>
-                        </div>
-                        <div class="row centerJ">
-                            <img class="quotesJ" src="./assets/Quotes.png" alt="">
-                        </div>
-                        <div class="row">
-                            <p class="txtCenterJ">Tina T</p>
-                        </div>
-                        <div class="row">
-                            <p class="txtCenterJ">Customer</p>
-                        </div>
-                        <div class="row centerJ">
-                            <img class="dotsJ" src="./assets/DotOutline.png" alt="">
-                            <img class="dotsJ" src="./assets/Dot No fill.png" alt="">
-                            <img class="dotsJ" src="./assets/Dot No fill.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-
-        <hr class="yellowJ hrLineJ hrMargin">
-
-        <div class="container-fluid footerPaddingJ disappearJ">
-            <div class="row" style="padding-top: 45px; padding-bottom: 20px;">
-                <div class="col-4" style="padding-left: 3%;">
-                    <div class="row yellowJ abrilFatfaceJ">
-                        <h2 class="footerFontSize3">Best Sandwiches</h2>
-                    </div>
-                    <div class="row yellowJ abrilFatfaceJ">
-                        <h2 class="footerFontSize3">& Smoothies</h2>
-                    </div>
-                </div>
-                <div class="col" style="padding-left: 2%;">
-                    <div class="row">
-                        <div class="col">
-                            <div class="row sansCollectionJ">
-                                <p class="yellowJ abrilFatfaceJ footerFontSize2">HOURS</p>
-                                <p class="yellowJ footerFontSize">Mon & Tue : 9 am - 5 pm</p>
-                                <p class="yellowJ footerFontSize">CLOSED WEDNESDAY</p>
-                                <p class="yellowJ footerFontSize">Thu - Sun : 9 am - 5pm</p>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="row sansCollectionJ">
-                                <p class="yellowJ abrilFatfaceJ footerFontSize2">CONTACT US</p>
-                                <p class="yellowJ footerFontSize">
-                                    <img src="../assets/phone symbol.png" alt="">
-                                    <a class="yellowJ" href="" style="padding-left: 15px;">(209) 475-0652</a>
-                                </p>
-                                <p class="yellowJ footerFontSize">3330 E Hammer Ln Ste</p>
-                                <p class="yellowJ footerFontSize">C Stockton, CA 95212</p>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="row">
-                                <p class="yellowJ abrilFatfaceJ footerFontSize2">LINKS</p>
-                            </div>
-                            <div class="row">
-                                <a class="footerIconsJ" href="https://m.facebook.com/profile.php?id=111693338885516">
-                                    <img class="img-fluid" src="../assets/FACEBOOK.png" alt="">
-                                </a>
-                                <a class="footerIconsJ"
-                                    href="https://www.yelp.com/biz/best-sandwiches-and-smoothies-stockton">
-                                    <img class="img-fluid" src="../assets/icons8-yelp-100.png" alt="">
-                                </a>
-                                <a class="footerIconsJ" href="../index.html">
-                                    <img class="img-fluid" src="../assets/bestSandwich logo.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid appearJ" style="padding-left: 20px; padding-right: 20px;">
-            <div class="row">
-                <div class="col">
-                    <p class="yellowJ footerFontSize" style="margin-bottom: 5px;">
-                        <img class="phoneImageJ" src="../assets/phone symbol.png" alt="">
-                        <a class="yellowJ" href="" style="padding-left: 15px">(209) 475-0652</a>
-                    </p>
-                    <p class="yellowJ footerFontSize" style="width: 115px;">
-                        3330 E Hammer Ln Ste C Stockton, CA 95212
-                    </p>
-                </div>
-                <div class="col">
-                    <div class="row rightJ">
-                        <a class="footerIconsMobileJ" href="https://m.facebook.com/profile.php?id=111693338885516">
-                            <img class="img-fluid" src="../assets/FACEBOOK.png" alt="">
-                        </a>
-                        <a class="footerIconsMobileJ"
-                            href="https://www.yelp.com/biz/best-sandwiches-and-smoothies-stockton">
-                            <img class="img-fluid" src="../assets/icons8-yelp-100.png" alt="">
-                        </a>
-                        <a class="footerIconsMobileJ" href="../index.html">
-                            <img class="img-fluid" src="../assets/bestSandwich logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="row">
-                        <p class="bSMobileFooterJ yellowJ" style="padding-top: 8px; text-align: end;">Best Sandwiches &
-                            Smoothies</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
