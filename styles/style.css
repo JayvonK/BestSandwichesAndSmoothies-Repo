@@ -768,9 +768,6 @@ button.carousel-control-next {
     font-size: 24px;
 }
 
-.mobileNavCoverJ {
-    padding-left: -42px;
-}
 
 .mobileInfoTxt {
     font-size: 20;
@@ -901,6 +898,7 @@ button.carousel-control-next {
 #flush-collapseOne {
     position: absolute;
     z-index: 1;
+    width: 6vw;
 }
 
 .show {
@@ -963,8 +961,7 @@ button.carousel-control-next {
 
     .mobileNavCoverJ {
         width: 100vw;
-        height: 65px;
-
+        height: 80px;
     }
 
     .aLittleAboutJ {
