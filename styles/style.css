@@ -589,6 +589,7 @@ hr {
 
 .menuPaddingJ {
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .carouselHeightJ {
@@ -1340,7 +1341,7 @@ button.carousel-control-next {
     }
 
     .viewMenuJ {
-        top: 35%;
+        top: 30%;
     }
 
     .viewMenuBtnJ {
