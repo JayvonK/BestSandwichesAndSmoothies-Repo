@@ -732,9 +732,14 @@ hr {
 }
 
 .hover2:hover {
+<<<<<<< HEAD
     width: 120%;
     height: 120%;
     transition: 1s ease;
+=======
+    width: 18vw;
+    height: 11vw;
+>>>>>>> 88c22c457e40d8e1b8566a16ad8a1d6c71295b09
 }
 
 .lineHeight30 {
